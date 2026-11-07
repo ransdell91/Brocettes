@@ -1,0 +1,38 @@
+{
+  "party_name": { "value": null, "note": "Broc proposed \"Brock and the Brockettes\". The rest of the party objected, and it remains an unresolved joke.", "sessions": [25] },
+  "level": { "value": 5, "history": [ { "level": 3, "session": 11 }, { "level": 4, "session": 23 }, { "level": 5, "session": 33 } ] },
+  "in_game_date": { "value": "19th of Hammer, 1491 DR", "sessions": [34, 38] },
+  "gold_log": [
+    { "session": 5, "amount_gp": 50, "text": "Sildar's escort payment (promised)" },
+    { "session": 6, "amount_gp": 50, "text": "Lenine: returned Lionshield crates" },
+    { "session": 18, "amount_gp": 60.15, "text": "Hamun Kost: goblin cave (60 gp 15 sp)" },
+    { "session": 23, "amount_gp": 175, "text": "Sold jewelry and beaver pelts at Barthen's" },
+    { "session": 24, "amount_gp": 700, "text": "Harbin's bounties (Cragmaw 500, Redbrands 100, Wyvern Tor 100). The party fund reached 1,830 gp." },
+    { "session": 24, "amount_gp": 200, "text": "Sildar: search for Iarno" },
+    { "session": 24, "amount_gp": 75, "text": "Lenine: Redbrands (50 plus 25 negotiated)" },
+    { "session": 25, "amount_gp": 7, "text": "Allyanna juggling lemons" },
+    { "session": 28, "amount_gp": 129, "text": "Strongbox: 600 cp, 180 sp, 90 ep, 60 gp" },
+    { "session": 34, "amount_gp": 28.6, "text": "Mormesk's chest: about 1,100 cp, 160 sp, gold chunks, plus 5 gems and the pipe" },
+    { "session": 36, "amount_gp": -150, "text": "Torra Ironwell: personalized manor rooms" }
+  ],
+  "owed_to_party": [
+    { "from": "gundren-rockseeker", "text": "10% of everything Wave Echo Cave earns once it's running", "sessions": [24, 34, 36] },
+    { "from": "lenine-graywind", "text": "Standing 10% discount at the Lion's Shield Coster", "sessions": [24] },
+    { "from": "mirna-dendrar", "text": "A reward for recovering her heirloom from Thundertree", "sessions": [9] },
+    { "from": "hamun-kost", "text": "Arcane insight in exchange for news of Bowgentle's spellbook or the necromancer", "sessions": [18] },
+    { "from": "harbin-wester", "text": "An apology, in the party's opinion", "sessions": [35] }
+  ],
+  "party_owes": [
+    { "to": "sister-garaele", "text": "Keep her Harper identity secret", "sessions": [38] },
+    { "to": "gundren-rockseeker", "text": "Answer for any trouble caused by Craig's goblins guarding the mine", "sessions": [34] },
+    { "to": "tharden-rockseeker", "text": "Levon promised to maintain the grave marker", "sessions": [38] },
+    { "to": "the-tree", "text": "Levon owes a tree a debt", "sessions": [7] },
+    { "to": "the-voice", "text": "Vexhar owes future acknowledgment that knowledge isn't free", "sessions": [27] }
+  ],
+  "property": [
+    { "text": "Tresendar Manor (deed from the town; restoration underway)", "sessions": [36] }
+  ],
+  "standings": [
+    { "text": "Festival tickets: Broc, then Levon, Allyanna, Vexhar, Francis, Blue", "sessions": [38] }
+  ]
+}

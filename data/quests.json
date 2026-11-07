@@ -1,0 +1,183 @@
+[
+  {
+    "id": "cure-francis", "title": "Cure Francis's affliction", "type": "party", "storyline": "tresendar-manor",
+    "status": "active", "giver": null, "started": 37,
+    "summary": "Aboleth ichor clings to Francis. He can't rest, only magical healing works, and the acid pain keeps coming back.",
+    "objectives": [
+      { "text": "Get Sister Garaele's clergy findings (expected 2–4 nights after session 37)", "done": false },
+      { "text": "Vexhar copies the Remove Curse scroll (6 hrs, 150 gp, DC 13, then a day to prepare it)", "done": false },
+      { "text": "Lift the affliction", "done": false }
+    ],
+    "reward": null, "sessions": [37, 38]
+  },
+  {
+    "id": "meet-the-harpers", "title": "Sit down with the Harpers", "type": "faction", "storyline": "harpers",
+    "status": "active", "giver": "sister-garaele", "started": 38,
+    "summary": "The Harpers have taken an interest in the party and want to talk with Francis about joining or working alongside them. Francis agreed to meet. Keep Garaele's secret.",
+    "objectives": [{ "text": "Meet the Harpers", "done": false }],
+    "reward": null, "sessions": [38]
+  },
+  {
+    "id": "phandalin-festival", "title": "Phandalin's festival", "type": "side", "storyline": null,
+    "status": "active", "giver": "harbin-wester", "started": 38,
+    "summary": "About halfway through. Tickets so far: Broc leads, then Levon, Allyanna, Vexhar, Francis and Blue.",
+    "objectives": [
+      { "text": "Madame Vane's riddles and card reading", "done": true },
+      { "text": "Cooking contest (Levon won)", "done": true },
+      { "text": "Archery vs. Phelan the Red (Broc tied)", "done": true },
+      { "text": "Carousel", "done": false },
+      { "text": "Fenwin's cups", "done": false },
+      { "text": "Tug of war", "done": false },
+      { "text": "Prize tent", "done": false }
+    ],
+    "reward": "Prizes from the prize tent", "sessions": [37, 38]
+  },
+  {
+    "id": "restore-tresendar-manor", "title": "Restore Tresendar Manor as the party's bastion", "type": "party", "storyline": "tresendar-manor",
+    "status": "active", "giver": "harbin-wester", "started": 35,
+    "summary": "The town gave the party the deed and pays for structural work. Torra Ironwell is building personalized rooms.",
+    "objectives": [
+      { "text": "Receive the deed", "done": true },
+      { "text": "Pay 150 gp for personalized rooms (woodshop, bar, training room, musician's study, alchemist study, sunroom)", "done": true },
+      { "text": "Find what's damaging the drains (the aboleth)", "done": true },
+      { "text": "Repair the pipes", "done": false },
+      { "text": "Furnish with the Realm stock wood Torra found", "done": false }
+    ],
+    "reward": "A home base", "sessions": [35, 36, 37, 38]
+  },
+  {
+    "id": "clear-forge-undead", "title": "Clear the undead from the Forge of Spells", "type": "main", "storyline": "wave-echo-cave",
+    "status": "active", "giver": "gundren-rockseeker", "started": 35,
+    "summary": "Four zombies and a ghoul drove Vexhar out of the forge. Vexhar's papers were left behind. The plan is for Craig's goblin commune to clear them as good public relations.",
+    "objectives": [
+      { "text": "Get word to Craig (letter handed to Sildar)", "done": true },
+      { "text": "Clear the forge", "done": false },
+      { "text": "Recover Vexhar's papers", "done": false }
+    ],
+    "reward": null, "sessions": [35, 36]
+  },
+  {
+    "id": "restore-forge", "title": "Restore the Forge of Spells", "type": "main", "storyline": "wave-echo-cave",
+    "status": "active", "giver": null, "started": 35,
+    "summary": "The forge lends magic drawn from the cave. Its floor channels were built for a much stronger flow, and it runs at about a quarter of its potential. Enchantments last about 8 hours.",
+    "objectives": [
+      { "text": "Research the forge (Vexhar and Francis have research points)", "done": false },
+      { "text": "Restore it to full power", "done": false }
+    ],
+    "reward": "10% of Wave Echo Cave's profits once it's running", "sessions": [34, 35]
+  },
+  {
+    "id": "mirna-heirloom", "title": "Mirna's heirloom in Thundertree", "type": "side", "storyline": null,
+    "status": "available", "giver": "mirna-dendrar", "started": 9,
+    "summary": "Mirna Dendrar's family hid an heirloom in Thundertree. She'll reward its return.",
+    "objectives": [{ "text": "Travel to Thundertree and recover the heirloom", "done": false }],
+    "reward": "Unspecified", "sessions": [9]
+  },
+  {
+    "id": "hamun-trade", "title": "Hamun Kost's standing trade", "type": "side", "storyline": "bowgentle",
+    "status": "available", "giver": "hamun-kost", "started": 18,
+    "summary": "Hamun will trade arcane insight for discoveries about Bowgentle's spellbook or the necromancer. His own question for Agatha was never asked.",
+    "objectives": [{ "text": "Bring Hamun news of the spellbook or the necromancer", "done": false }],
+    "reward": "Arcane insight", "sessions": [15, 18]
+  },
+  {
+    "id": "bury-tharden", "title": "Give Tharden a proper burial", "type": "main", "storyline": "wave-echo-cave",
+    "status": "completed", "giver": "gundren-rockseeker", "started": 25, "completed": 38,
+    "summary": "Buried in Phandalin's cemetery under Levon's marker, which Levon promised to maintain.",
+    "objectives": [], "reward": null, "sessions": [25, 34, 35, 38]
+  },
+  {
+    "id": "drains", "title": "Investigate Tresendar Manor's drains", "type": "side", "storyline": "tresendar-manor",
+    "status": "completed", "giver": "torra-ironwell", "started": 36, "completed": 37,
+    "summary": "The pipe damage was an aboleth, which the party killed. It left Francis afflicted and Blue with the Drowned Pan Flute.",
+    "objectives": [], "reward": "Drowned Pan Flute (found)", "sessions": [36, 37]
+  },
+  {
+    "id": "find-the-brothers", "title": "Reclaim Wave Echo Cave and find Gundren's brothers", "type": "main", "storyline": "wave-echo-cave",
+    "status": "completed", "giver": "gundren-rockseeker", "started": 24, "completed": 34,
+    "summary": "Tharden was found dead, Nundro was rescued, Nezznar was killed and the spectator released.",
+    "objectives": [], "reward": "10% of the mine's future profits", "sessions": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+  },
+  {
+    "id": "rescue-gundren", "title": "Rescue Gundren from Cragmaw Castle", "type": "main", "storyline": "the-spider",
+    "status": "completed", "giver": "sildar-hallwinter", "started": 2, "completed": 23,
+    "summary": "Found beaten and unconscious in King Grol's chamber.",
+    "objectives": [], "reward": "500 gp from Harbin", "sessions": [2, 16, 19, 20, 21, 22, 23]
+  },
+  {
+    "id": "deal-with-redbrands", "title": "Deal with the Redbrands", "type": "main", "storyline": "the-spider",
+    "status": "completed", "giver": "harbin-wester", "started": 6, "completed": 16,
+    "summary": "Cleared the hideout under Tresendar Manor and killed Glasstaff.",
+    "objectives": [], "reward": "100 gp (Harbin), 75 gp and 10% discount (Lenine)", "sessions": [6, 7, 8, 9, 10, 11, 16]
+  },
+  {
+    "id": "find-iarno", "title": "Find Iarno Albrek", "type": "side", "storyline": "the-spider",
+    "status": "completed", "giver": "sildar-hallwinter", "started": 5, "completed": 24,
+    "summary": "Iarno was Glasstaff. Sildar paid anyway.",
+    "objectives": [], "reward": "200 gp", "sessions": [5, 23, 24]
+  },
+  {
+    "id": "wyvern-tor-marauders", "title": "Drive off the Wyvern Tor marauders", "type": "side", "storyline": null,
+    "status": "completed", "giver": "harbin-wester", "started": 7, "completed": 14,
+    "summary": "Fought bugbears, an ogre and an orc. Caine was taken hostage, freed, and then left the party.",
+    "objectives": [], "reward": "100 gp", "sessions": [7, 12, 13, 14]
+  },
+  {
+    "id": "banshee", "title": "Ask Agatha about Bowgentle's spellbook", "type": "side", "storyline": "bowgentle",
+    "status": "completed", "giver": "sister-garaele", "started": 6, "completed": 23,
+    "summary": "Agatha traded the book to someone \"of Erebor\" over a century ago.",
+    "objectives": [], "reward": "3 potions of healing", "sessions": [6, 17, 18, 23]
+  },
+  {
+    "id": "hamun-goblins", "title": "Clear the goblin cave near Old Owl Well", "type": "side", "storyline": null,
+    "status": "completed", "giver": "hamun-kost", "started": 15, "completed": 18,
+    "summary": "It turned out to be Glasstaff's hideout, with Blue and Allyanna in its cells.",
+    "objectives": [], "reward": "60 gp 15 sp and a scroll of Darkness", "sessions": [15, 16, 18]
+  },
+  {
+    "id": "lionshield-crates", "title": "Return the Lion's Shield crates", "type": "side", "storyline": null,
+    "status": "completed", "giver": null, "started": 5, "completed": 6,
+    "summary": "Recovered from Klarg's cave.", "objectives": [], "reward": "50 gp", "sessions": [5, 6]
+  },
+  {
+    "id": "rescue-sildar", "title": "Rescue Sildar and deliver Gundren's supplies", "type": "main", "storyline": "the-spider",
+    "status": "completed", "giver": "gundren-rockseeker", "started": 1, "completed": 5,
+    "summary": "Saved Sildar from Yeemik, killed Klarg and delivered the wagon to Barthen's.",
+    "objectives": [], "reward": "50 gp from Sildar plus delivery pay", "sessions": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": "levon-tree-debt", "title": "Levon's debt to the tree", "type": "personal", "character": "levon", "storyline": null,
+    "status": "active", "giver": null, "started": 3,
+    "summary": "He took wood from a forbidden part of the forest. His eyes are changing, the carved sapling's pattern appeared in Choppy, and Choppy is now +1.",
+    "objectives": [], "reward": null, "sessions": [3, 7, 27, 31]
+  },
+  {
+    "id": "francis-varron-maelor", "title": "Captain Varron Maelor", "type": "personal", "character": "francis", "storyline": null,
+    "status": "active", "giver": null, "started": 3,
+    "summary": "\"Follow what he started or finish him.\"", "objectives": [], "reward": null, "sessions": [3, 10, 27]
+  },
+  {
+    "id": "vexhar-voice", "title": "The voice behind Vexhar's sigil", "type": "personal", "character": "vexhar", "storyline": "the-spider",
+    "status": "active", "giver": null, "started": 3,
+    "summary": "It answered his ritual, branded his hand, calls him \"little scholar\" and urged his first zombie. Knowledge isn't free.",
+    "objectives": [], "reward": null, "sessions": [3, 27, 30, 32]
+  },
+  {
+    "id": "blue-feywild", "title": "Blue and the Coral Court", "type": "personal", "character": "blue", "storyline": null,
+    "status": "active", "giver": null, "started": 27,
+    "summary": "She escaped Lintri after ten years. Her father and brother are complicated. The party promised nobody will drag her back.",
+    "objectives": [], "reward": null, "sessions": [27, 31, 35, 38]
+  },
+  {
+    "id": "broc-cloaked-patron", "title": "The cloaked patron", "type": "personal", "character": "broc", "storyline": null,
+    "status": "active", "giver": null, "started": 3,
+    "summary": "\"You've been chasing control rather than art. You'll learn another way.\" His fire will grow but always cost something.",
+    "objectives": [], "reward": null, "sessions": [3, 27]
+  },
+  {
+    "id": "allyanna-solas", "title": "Allyanna's pact with Solas", "type": "personal", "character": "allyanna", "storyline": null,
+    "status": "active", "giver": null, "started": 27,
+    "summary": "A herald of Lathander made her false promises real. Solas went silent when she called for Francis.",
+    "objectives": [], "reward": null, "sessions": [27, 37]
+  }
+]

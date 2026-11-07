@@ -1,0 +1,294 @@
+[
+  {
+    "id": "gundren-rockseeker", "name": "Gundren Rockseeker", "aliases": [],
+    "role": "Dwarf prospector; the party's original employer (hired them in Neverwinter)",
+    "status": "alive", "attitude": "friendly", "location": "phandalin", "factions": ["rockseekers"],
+    "facts": [
+      { "text": "Rediscovered Wave Echo Cave with his brothers and hoped it held the Forge of Spells.", "confidence": "confirmed", "sessions": [5, 24] },
+      { "text": "Kidnapped on the road and held by King Grol at Cragmaw Castle. The party rescued him.", "confidence": "confirmed", "sessions": [22, 23] },
+      { "text": "Promised the party 10% of Wave Echo Cave's future profits and refused to let it be reduced. He'll pay Craig's goblins separately.", "confidence": "confirmed", "sessions": [24, 34, 36] },
+      { "text": "Placed something under the first spade of dirt at Tharden's grave and kept Levon's marker.", "confidence": "confirmed", "sessions": [38] },
+      { "text": "Arrived at the shrine alone and quiet, without Sildar, Harbin or his hat.", "confidence": "confirmed", "sessions": [37] }
+    ],
+    "first_session": 1, "last_session": 38
+  },
+  {
+    "id": "tharden-rockseeker", "name": "Tharden Rockseeker", "aliases": [],
+    "role": "Gundren's brother", "status": "dead", "attitude": null, "location": "phandalin-cemetery", "factions": ["rockseekers"],
+    "facts": [
+      { "text": "Found dead at the Rockseeker campsite inside Wave Echo Cave, killed by an unknown attacker. Nothing was taken.", "confidence": "confirmed", "sessions": [25] },
+      { "text": "Nezznar used Tharden's death to torment the captive Nundro.", "confidence": "claimed", "claimed_by": "Nundro", "sessions": [33] },
+      { "text": "Buried in the rain in Phandalin's cemetery under Levon's carved marker.", "confidence": "confirmed", "sessions": [38] }
+    ],
+    "first_session": 25, "last_session": 38
+  },
+  {
+    "id": "nundro-rockseeker", "name": "Nundro Rockseeker", "aliases": ["Sloppy Joe (Levon's nickname)"],
+    "role": "Gundren's last living brother", "status": "alive", "attitude": "friendly", "location": "phandalin", "factions": ["rockseekers"],
+    "facts": [
+      { "text": "Held prisoner by Nezznar, who asked him every day where the Forge of Spells was. Nundro said he didn't know.", "confidence": "claimed", "claimed_by": "Nundro", "sessions": [33] },
+      { "text": "A shapeshifter impersonated him and vanished from the cave entrance. The real Nundro proved himself with \"Petunia\", their mother's nickname.", "confidence": "confirmed", "sessions": [33] },
+      { "text": "Experimenting with a shield Broc gave him at the forge.", "confidence": "confirmed", "sessions": [34] }
+    ],
+    "first_session": 32, "last_session": 38
+  },
+  {
+    "id": "sildar-hallwinter", "name": "Sildar Hallwinter", "aliases": [],
+    "role": "Lords' Alliance agent", "status": "alive", "attitude": "friendly", "location": "phandalin", "factions": ["lords-alliance"],
+    "facts": [
+      { "text": "Rescued from Yeemik's knife in the Cragmaw hideout.", "confidence": "confirmed", "sessions": [4] },
+      { "text": "Sent to find his friend Iarno Albrek, who turned out to be Glasstaff. He grieved and went to see to the body himself.", "confidence": "confirmed", "sessions": [5, 24] },
+      { "text": "Organizing a town watch and patrols, and sending word to the Lords' Alliance for aid.", "confidence": "confirmed", "sessions": [24] },
+      { "text": "The table has wondered whether he can be fully trusted, but Vexhar's Insight read his grief as genuine.", "confidence": "rumoured", "sessions": [12, 23, 24] }
+    ],
+    "first_session": 2, "last_session": 38
+  },
+  {
+    "id": "sister-garaele", "name": "Sister Garaele", "aliases": [],
+    "role": "Priestess of the Shrine of Luck", "status": "alive", "attitude": "friendly", "location": "shrine-of-luck", "factions": ["harpers"],
+    "facts": [
+      { "text": "Sent the party to the banshee Agatha with a jeweled silver comb to learn the fate of Bowgentle's spellbook. Rewarded them with 3 potions of healing.", "confidence": "confirmed", "sessions": [6, 23] },
+      { "text": "Took a sample of Francis's ichor to the clergy and expects answers in two to four nights.", "confidence": "confirmed", "sessions": [37] },
+      { "text": "Is secretly a Harper sent to investigate Phandalin. She asked the party to keep it quiet.", "confidence": "confirmed", "sessions": [38] },
+      { "text": "Delivered a scroll of Remove Curse for Francis.", "confidence": "confirmed", "sessions": [38] }
+    ],
+    "first_session": 6, "last_session": 38
+  },
+  {
+    "id": "harbin-wester", "name": "Harbin Wester", "aliases": [],
+    "role": "Townmaster of Phandalin", "status": "alive", "attitude": "friendly", "location": "townmasters-hall", "factions": ["phandalin-folk"],
+    "facts": [
+      { "text": "Paid bounties: 500 gp for Cragmaw Castle, 100 for the Redbrands, 100 for Wyvern Tor.", "confidence": "confirmed", "sessions": [24] },
+      { "text": "Gave the party the deed to Tresendar Manor on behalf of the town, with restoration paid for.", "confidence": "confirmed", "sessions": [36] },
+      { "text": "Broc openly criticized his leadership. The party feels he owes them an apology.", "confidence": "confirmed", "sessions": [24, 35] },
+      { "text": "Stepped back from Francis after seeing him take acid damage at the festival.", "confidence": "confirmed", "sessions": [38] }
+    ],
+    "first_session": 7, "last_session": 38
+  },
+  {
+    "id": "toblen-stonehill", "name": "Toblen Stonehill", "aliases": ["Toblin"],
+    "role": "Owner of the Stonehill Inn", "status": "alive", "attitude": "friendly", "location": "stonehill-inn", "factions": ["phandalin-folk"],
+    "facts": [
+      { "text": "Comps the party's drinks and asks them to keep magic in the inn to a minimum.", "confidence": "confirmed", "sessions": [35] },
+      { "text": "Judged the festival cooking contest and will serve Levon's winning dish at the inn.", "confidence": "confirmed", "sessions": [38] }
+    ],
+    "first_session": 6, "last_session": 38
+  },
+  {
+    "id": "trilena-stonehill", "name": "Trilena Stonehill", "aliases": ["Trelenna", "Toblen's wife"],
+    "role": "Toblen's wife", "status": "alive", "attitude": "neutral", "location": "stonehill-inn", "factions": ["phandalin-folk"],
+    "facts": [
+      { "text": "Saw Redbrands kill a man in the street.", "confidence": "claimed", "claimed_by": "Trilena", "sessions": [6, 7] },
+      { "text": "Was offended when Broc winked at her. Broc's sparking magic sent her back to her seat at the cooking contest.", "confidence": "confirmed", "sessions": [35, 37, 38] }
+    ],
+    "first_session": 6, "last_session": 38
+  },
+  {
+    "id": "torra-ironwell", "name": "Torra Ironwell", "aliases": ["Cora Ironwell"],
+    "role": "Dwarf contractor restoring Tresendar Manor", "status": "alive", "attitude": "friendly", "location": "tresendar-manor", "factions": ["phandalin-folk"],
+    "facts": [
+      { "text": "Took 150 gp to build personalized rooms. The town covers the structural work.", "confidence": "confirmed", "sessions": [36] },
+      { "text": "Found a pile of \"Realm stock\" wood while clearing the manor. Levon asked her to save it for furniture.", "confidence": "confirmed", "sessions": [38] }
+    ],
+    "first_session": 36, "last_session": 38
+  },
+  {
+    "id": "elmina", "name": "Elmina", "aliases": [],
+    "role": "Runs Barthen's Provisions", "status": "alive", "attitude": "friendly", "location": "barthens-provisions", "factions": ["phandalin-folk"],
+    "facts": [
+      { "text": "Paid for Gundren's delivered supplies and kept his wagon and oxen safe.", "confidence": "confirmed", "sessions": [5, 23] },
+      { "text": "Took the captured Redbrand Johnny as a stable hand for months as penance.", "confidence": "confirmed", "sessions": [8] }
+    ],
+    "first_session": 5, "last_session": 23
+  },
+  {
+    "id": "lenine-graywind", "name": "Lenine Graywind", "aliases": ["Lenine Greywind"],
+    "role": "Runs the Lion's Shield Coster", "status": "alive", "attitude": "friendly", "location": "lions-shield-coster", "factions": ["lionshield-coster"],
+    "facts": [
+      { "text": "Paid 50 gp for the returned crates and 75 gp for the Redbrands, and gave a standing 10% discount.", "confidence": "confirmed", "sessions": [6, 24] },
+      { "text": "Helping Sildar organize the town watch.", "confidence": "confirmed", "sessions": [24] }
+    ],
+    "first_session": 6, "last_session": 24
+  },
+  {
+    "id": "daran-edermath", "name": "Daran Edermath", "aliases": [],
+    "role": "Orchard owner", "status": "alive", "attitude": "friendly", "location": "edermath-orchard", "factions": ["phandalin-folk"],
+    "facts": [{ "text": "Let the party pick six baskets of apples at 1 sp each. Francis uprooted (and replanted) a tree.", "confidence": "confirmed", "sessions": [35] }],
+    "first_session": 35, "last_session": 35
+  },
+  {
+    "id": "alvin-tostig", "name": "Alvin Tostig", "aliases": [],
+    "role": "Levon's father, farmer", "status": "alive", "attitude": "friendly", "location": "tostig-farm", "factions": [],
+    "facts": [
+      { "text": "Says Levon's changing eyes are a consequence of taking what did not belong to him, not a curse.", "confidence": "claimed", "claimed_by": "Alvin", "sessions": [7] },
+      { "text": "Pointed the party at the Redbrands.", "confidence": "confirmed", "sessions": [7] }
+    ],
+    "first_session": 7, "last_session": 27
+  },
+  {
+    "id": "mirna-dendrar", "name": "Mirna Dendrar", "aliases": [],
+    "role": "Phandalin villager; rescued from Redbrand cells with her children Nilsa and Nars", "status": "alive", "attitude": "friendly", "location": "phandalin", "factions": [],
+    "facts": [
+      { "text": "The Redbrands murdered her husband.", "confidence": "confirmed", "sessions": [9] },
+      { "text": "Promised a reward for recovering a hidden family heirloom in Thundertree.", "confidence": "confirmed", "sessions": [9] }
+    ],
+    "first_session": 9, "last_session": 9
+  },
+  {
+    "id": "madame-vane", "name": "Madame Ilsbeth Vane", "aliases": ["the fortune teller"],
+    "role": "Festival fortune teller", "status": "alive", "attitude": "neutral", "location": "fairgrounds", "factions": ["festival"],
+    "facts": [{ "text": "Read every card correctly except Blue's (The Tower). Allyanna accused her of cheating and she denied it.", "confidence": "confirmed", "sessions": [38] }],
+    "first_session": 38, "last_session": 38
+  },
+  {
+    "id": "phelan-the-red", "name": "Phelan the Red", "aliases": [],
+    "role": "Wood elf archer at the festival", "status": "alive", "attitude": "friendly", "location": "fairgrounds", "factions": ["festival"],
+    "facts": [{ "text": "Scored 8 in archery. Broc tied her and nobody beat her.", "confidence": "confirmed", "sessions": [38] }],
+    "first_session": 38, "last_session": 38
+  },
+  {
+    "id": "hamun-kost", "name": "Hamun Kost", "aliases": [],
+    "role": "Red-robed necromancer studying Old Owl Well", "status": "alive", "attitude": "neutral", "location": "old-owl-well", "factions": [],
+    "facts": [
+      { "text": "Controls the zombies at Old Owl Well and is studying the well.", "confidence": "confirmed", "sessions": [15] },
+      { "text": "Paid 60 gp 15 sp for clearing the goblin hideout and gave Vexhar a scroll of Darkness.", "confidence": "confirmed", "sessions": [18] },
+      { "text": "Will trade arcane insight for discoveries about Bowgentle's spellbook or the necromancer.", "confidence": "confirmed", "sessions": [18] },
+      { "text": "His own question for Agatha went unanswered.", "confidence": "confirmed", "sessions": [18] }
+    ],
+    "first_session": 14, "last_session": 18
+  },
+  {
+    "id": "agatha", "name": "Agatha", "aliases": ["the banshee"],
+    "role": "Vain banshee of Conyberry", "status": "undead", "attitude": "hostile", "location": "conyberry", "factions": [],
+    "facts": [
+      { "text": "Accepted the silver comb. Said she traded Bowgentle's spellbook to \"Tsarnaev of Erebor\" (later reported as \"Samber of Erebor\") over a century ago.", "confidence": "claimed", "claimed_by": "Agatha", "sessions": [18, 23] },
+      { "text": "Warned Vexhar not to test whether she could be ended, and ordered the party to leave.", "confidence": "confirmed", "sessions": [18] }
+    ],
+    "first_session": 18, "last_session": 18
+  },
+  {
+    "id": "droop", "name": "Droop", "aliases": [],
+    "role": "Scraptops goblin scavenger", "status": "alive", "attitude": "friendly", "location": null, "factions": ["scraptops"],
+    "facts": [
+      { "text": "Captured twice by Glasstaff's people. Said Glasstaff keeps a small demonic imp.", "confidence": "claimed", "claimed_by": "Droop", "sessions": [12, 16] },
+      { "text": "Convinced Craig to come home to the Scraptops.", "confidence": "confirmed", "sessions": [16] }
+    ],
+    "first_session": 11, "last_session": 16
+  },
+  {
+    "id": "johnny", "name": "Johnny", "aliases": [],
+    "role": "Captured Redbrand, now mucking Elmina's stables", "status": "alive", "attitude": "neutral", "location": "barthens-provisions", "factions": ["redbrands"],
+    "facts": [{ "text": "Spared in exchange for directions into the Tresendar hideout and months of labor.", "confidence": "confirmed", "sessions": [8] }],
+    "first_session": 7, "last_session": 8
+  },
+  {
+    "id": "yeemik", "name": "Yeemik", "aliases": ["Yimik"],
+    "role": "Goblin lieutenant at the Cragmaw hideout", "status": "alive", "attitude": "neutral", "location": null, "factions": ["cragmaw"],
+    "facts": [
+      { "text": "Held Sildar at knifepoint and first named King Grol and the Spider.", "confidence": "confirmed", "sessions": [4] },
+      { "text": "Spared. He and his goblins helped haul the Lionshield crates, then left.", "confidence": "confirmed", "sessions": [5] }
+    ],
+    "first_session": 3, "last_session": 5
+  },
+  {
+    "id": "gray-elf-woman", "name": "Gray-skinned elvish woman", "aliases": ["Vyrith (party's guess)"],
+    "role": "The Spider's agent", "status": "alive", "attitude": "unknown", "location": null, "factions": ["the-spider"],
+    "facts": [
+      { "text": "Advised King Grol and came on business involving Gundren.", "confidence": "confirmed", "sessions": [22, 23] },
+      { "text": "Released by the party. Parting words: her business had concluded, and the Spider would be found only if he wished to be.", "confidence": "confirmed", "sessions": [23] },
+      { "text": "The party believes her name is Vyrith, but Gundren didn't recognize it.", "confidence": "rumoured", "sessions": [24] }
+    ],
+    "first_session": 22, "last_session": 23
+  },
+  {
+    "id": "nezznar", "name": "Nezznar the Spider", "aliases": ["the Spider", "the Black Spider"],
+    "role": "Drow mastermind behind the Cragmaws and Redbrands", "status": "dead", "attitude": "hostile", "location": "wave-echo-cave", "factions": ["the-spider"],
+    "facts": [
+      { "text": "Hired bugbears and left them starving and unpaid.", "confidence": "claimed", "claimed_by": "bugbear captain", "sessions": [30] },
+      { "text": "Wanted to claim the Forge of Spells and held Nundro hostage for its location.", "confidence": "confirmed", "sessions": [32, 33] },
+      { "text": "Killed by Allyanna's Eldritch Blast in Francis's grip. Later raised as Vexhar's zombie and destroyed by a ghoul.", "confidence": "confirmed", "sessions": [32, 33, 35] }
+    ],
+    "first_session": 4, "last_session": 35
+  },
+  {
+    "id": "glasstaff", "name": "Glasstaff", "aliases": ["Iarno Albrek"],
+    "role": "Leader of the Redbrands; secretly Sildar's friend Iarno", "status": "dead", "attitude": "hostile", "location": null, "factions": ["redbrands", "lords-alliance"],
+    "facts": [
+      { "text": "Fled the Tresendar hideout during the party's rest.", "confidence": "confirmed", "sessions": [11] },
+      { "text": "Gave up Cragmaw Castle's location and warned his operation was not the center of the larger threat. Killed after questioning.", "confidence": "confirmed", "sessions": [16] }
+    ],
+    "first_session": 10, "last_session": 16
+  },
+  {
+    "id": "king-grol", "name": "King Grol", "aliases": [],
+    "role": "Bugbear king of the Cragmaws", "status": "dead", "attitude": "hostile", "location": "cragmaw-castle", "factions": ["cragmaw"],
+    "facts": [{ "text": "Nearly ransomed Gundren for 750 gp and a bracelet before Vexhar's Spellfire Flare. Killed by Blue's Vicious Mockery. His direwolf Snarl died next round.", "confidence": "confirmed", "sessions": [22, 23] }],
+    "first_session": 4, "last_session": 23
+  },
+  {
+    "id": "klarg", "name": "Klarg", "aliases": [],
+    "role": "Bugbear leader of the Cragmaw hideout", "status": "dead", "attitude": "hostile", "location": "cragmaw-hideout", "factions": ["cragmaw"],
+    "facts": [{ "text": "Got stuck fleeing up the chimney and was killed. His body was fed to the wolves he'd starved.", "confidence": "confirmed", "sessions": [4, 5] }],
+    "first_session": 2, "last_session": 5
+  },
+  {
+    "id": "ssarnak", "name": "Ssarnak", "aliases": ["Come-Later", "the Nothic"],
+    "role": "Nothic in the Tresendar crevasse", "status": "dead", "attitude": "hostile", "location": "redbrand-hideout", "factions": [],
+    "facts": [{ "text": "Fed on warped, elongated-skull goblins and traded secrets for corpses. Guarded the chest holding Talon.", "confidence": "confirmed", "sessions": [10] }],
+    "first_session": 9, "last_session": 10
+  },
+  {
+    "id": "mormesk", "name": "Mormesk", "aliases": [],
+    "role": "Wraith, once a wizard of Wave Echo Cave", "status": "destroyed", "attitude": "hostile", "location": "wave-echo-cave", "factions": [],
+    "facts": [
+      { "text": "\"Still warm. I'd forgotten what that looked like. You'll leave something behind when you go. They always do.\"", "confidence": "confirmed", "sessions": [33] },
+      { "text": "Said \"Finally\" as Choppy dissolved him.", "confidence": "confirmed", "sessions": [34] }
+    ],
+    "first_session": 33, "last_session": 34
+  },
+  {
+    "id": "spectator", "name": "The Spectator", "aliases": [],
+    "role": "Summoned guardian of the Forge of Spells", "status": "released", "attitude": "neutral", "location": "wave-echo-cave", "factions": [],
+    "facts": [{ "text": "Bound in 1385 by a 101-year contract signed by Halvard Price. Shown the expired contract (it's now 1491), it declared itself released and vanished.", "confidence": "confirmed", "sessions": [33, 34] }],
+    "first_session": 33, "last_session": 34
+  },
+  {
+    "id": "aboleth", "name": "The aboleth", "aliases": ["the voice beneath the manor"],
+    "role": "Telepathic aberration in the drains below Tresendar Manor", "status": "dead", "attitude": "hostile", "location": "tresendar-drains", "factions": [],
+    "facts": [
+      { "text": "Smaller and less developed than expected. It wanted the party to serve it.", "confidence": "confirmed", "sessions": [37] },
+      { "text": "Last words: what was broken will be remembered elsewhere.", "confidence": "confirmed", "sessions": [37] }
+    ],
+    "first_session": 36, "last_session": 37
+  },
+  {
+    "id": "bugbear-captain", "name": "Bugbear captain", "aliases": [],
+    "role": "Former Nezznar mercenary", "status": "alive", "attitude": "friendly", "location": "craigs-commune", "factions": [],
+    "facts": [{ "text": "Spared and sent to protect Craig's goblin commune. Blue faked a tracking mark on him with Minor Illusion.", "confidence": "confirmed", "sessions": [30] }],
+    "first_session": 29, "last_session": 30
+  },
+  {
+    "id": "halvard-price", "name": "Halvard Price", "aliases": [],
+    "role": "Name on the forge's guardian contract and ledger", "status": "unknown", "attitude": null, "location": null, "factions": [],
+    "facts": [{ "text": "Signed the spectator's contract in 1385. His name sits beside the \"sealed\" stamps in the forge ledger, where other masters' names were scratched or burned away.", "confidence": "confirmed", "sessions": [34, 35] }],
+    "first_session": 34, "last_session": 35
+  },
+  {
+    "id": "solas", "name": "Solas", "aliases": ["Solace"],
+    "role": "Herald of Lathander; Allyanna's patron", "status": "unknown", "attitude": "friendly", "location": null, "factions": [],
+    "facts": [{ "text": "Answered Allyanna's fake blessing and made it real. Did not answer her call for Francis.", "confidence": "confirmed", "sessions": [27, 37] }],
+    "first_session": 27, "last_session": 37
+  },
+  {
+    "id": "lintri", "name": "Lintri", "aliases": [],
+    "role": "Ruler of the Coral Court (Feywild)", "status": "unknown", "attitude": "hostile", "location": "coral-court", "factions": [],
+    "facts": [{ "text": "Held Blue captive for ten years.", "confidence": "confirmed", "sessions": [27] }],
+    "first_session": 27, "last_session": 27
+  },
+  {
+    "id": "varron-maelor", "name": "Captain Varron Maelor", "aliases": [],
+    "role": "Francis's former Ironmark Legion captain", "status": "unknown", "attitude": "unknown", "location": null, "factions": ["ironmark-legion"],
+    "facts": [{ "text": "Abandoned Francis's squad in the field. Francis never fully lost his trust in him.", "confidence": "confirmed", "sessions": [27] }],
+    "first_session": 3, "last_session": 27
+  }
+]

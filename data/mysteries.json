@@ -1,0 +1,134 @@
+[
+  {
+    "id": "francis-ichor", "question": "What is the ichor on Francis, and how is it cured?", "status": "open", "raised": 37,
+    "clues": [
+      { "session": 37, "text": "Pale, slick, clinging skin. It won't wash off and blocks rest and nonmagical healing." },
+      { "session": 37, "text": "Blue's Detect Magic showed Francis glowing, but Broc's showed no magic from his body." },
+      { "session": 37, "text": "Healing Light works. Lesser Restoration fought it and failed." },
+      { "session": 38, "text": "Recurring 1d12 acid pain. Medicine checks (DC 15) found no cause." }
+    ],
+    "theories": [{ "by": "Allyanna", "text": "Needs something stronger than Lesser Restoration." }],
+    "related": ["cure-francis", "aboleth"]
+  },
+  {
+    "id": "aboleth-last-words", "question": "\"What was broken will be remembered elsewhere.\" Remembered by whom?", "status": "open", "raised": 37,
+    "clues": [{ "session": 37, "text": "Vexhar judged the aboleth smaller and less developed than expected." }],
+    "theories": [], "related": ["aboleth"]
+  },
+  {
+    "id": "false-nundro", "question": "Who impersonated Nundro, and where did they go?", "status": "open", "raised": 33,
+    "clues": [
+      { "session": 33, "text": "Fresh footprints led out of Wave Echo Cave. Nobody answered Broc's Message." },
+      { "session": 33, "text": "Vexhar: either high-level magic like true polymorph, or a shapeshifter." },
+      { "session": 33, "text": "Gundren says something about his companion had seemed off." }
+    ],
+    "theories": [], "related": ["nundro-rockseeker"]
+  },
+  {
+    "id": "strange-goblins", "question": "What are the elongated-skull goblins?", "status": "open", "raised": 7,
+    "clues": [
+      { "session": 7, "text": "Sildar heard of an elongated-headed goblin with unusual eyes among the raiders." },
+      { "session": 10, "text": "Warped goblin corpses with elongated skulls in the nothic's crevasse." },
+      { "session": 14, "text": "Wall drawing at Wyvern Tor of a goblin with a crystal protruding from its skull." },
+      { "session": 26, "text": "Corpse in the Wave Echo pit with an elongated skull and faint green streaks in its skin." },
+      { "session": 32, "text": "It doesn't decompose. There's no magic and nothing fey, but Blue felt something colder and emptier." }
+    ],
+    "theories": [{ "by": "Broc & Francis", "text": "The Spider may have been using the forge to make them." }],
+    "related": []
+  },
+  {
+    "id": "vexhar-watcher", "question": "Who in the Spider's operation took an interest in Vexhar first, and who does he work for?", "status": "open", "raised": 11,
+    "clues": [
+      { "session": 11, "text": "Glasstaff's correspondence mentioned a \"drow arcanist\"." },
+      { "session": 32, "text": "Nezznar said Vexhar was flagged running errands in the Neverwinter underworld." },
+      { "session": 32, "text": "Vexhar isn't sure he knows his employer's name." }
+    ],
+    "theories": [], "related": ["vexhar-voice"]
+  },
+  {
+    "id": "gray-elf", "question": "Who is the gray-skinned elvish woman, and will she return?", "status": "open", "raised": 22,
+    "clues": [
+      { "session": 23, "text": "She served the Spider and was released by the party." },
+      { "session": 24, "text": "The party thinks her name is Vyrith. Gundren doesn't know it." },
+      { "session": 27, "text": "Allyanna's flashback: a gray-skinned creature killed travelers near the old boundary stones." }
+    ],
+    "theories": [], "related": ["gray-elf-woman"]
+  },
+  {
+    "id": "gundren-spade", "question": "What did Gundren place under the first spade of dirt at Tharden's grave?", "status": "open", "raised": 38,
+    "clues": [], "theories": [], "related": ["gundren-rockseeker"]
+  },
+  {
+    "id": "pan-flute", "question": "Where did the Drowned Pan Flute come from, and what is its unfinished tune?", "status": "open", "raised": 37,
+    "clues": [
+      { "session": 37, "text": "Found in the aboleth's wreckage. It mixes abjuration, transmutation, illusion and conjuration." },
+      { "session": 38, "text": "Keeps humming when Blue isn't playing it." }
+    ],
+    "theories": [], "related": ["drowned-pan-flute"]
+  },
+  {
+    "id": "goat", "question": "What spooked the goat toward the old mine road?", "status": "open", "raised": 38,
+    "clues": [{ "session": 38, "text": "It let out a cry that didn't sound like a goat and avoided that end of the grounds all day. A bystander said it \"smelled the wolf\"." }],
+    "theories": [{ "by": "Blue", "text": "It smelled her cooking." }],
+    "related": []
+  },
+  {
+    "id": "tharden-killer", "question": "Who killed Tharden?", "status": "open", "raised": 25,
+    "clues": [
+      { "session": 25, "text": "Vexhar couldn't determine the weapon or number of attackers. Nothing was taken." },
+      { "session": 33, "text": "Nezznar used Tharden's death to torment Nundro." }
+    ],
+    "theories": [], "related": ["tharden-rockseeker"]
+  },
+  {
+    "id": "forge-masters", "question": "Who were the forge's masters, and why were their names erased?", "status": "open", "raised": 34,
+    "clues": [
+      { "session": 34, "text": "The guardian contract is signed by Halvard Price and dated 1385." },
+      { "session": 35, "text": "A ledger of \"lent\" and \"sealed\" items. Price's name is beside the stamps, and other names are scratched or burned away." }
+    ],
+    "theories": [], "related": ["halvard-price", "restore-forge"]
+  },
+  {
+    "id": "bowgentle-book", "question": "Where is Bowgentle's spellbook now?", "status": "open", "raised": 6,
+    "clues": [{ "session": 18, "text": "Agatha traded it to \"Tsarnaev of Erebor\" (recorded as \"Samber of Erebor\" in session 23) over a century ago." }],
+    "theories": [], "related": ["banshee", "hamun-trade"]
+  },
+  {
+    "id": "cragmaw-shrine", "question": "Why does Cragmaw Castle have a blood-soaked shrine with a statue of Lathander?", "status": "open", "raised": 21,
+    "clues": [{ "session": 21, "text": "Stone altar under a blood-stained black cloth with a gold chalice and censer. One angelic pillar statue is Lathander, Solas's god." }],
+    "theories": [], "related": ["allyanna-solas"]
+  },
+  {
+    "id": "old-owl-well-study", "question": "What is Hamun Kost studying at Old Owl Well, and why is Agatha's well dry?", "status": "open", "raised": 15,
+    "clues": [{ "session": 18, "text": "Agatha's well is completely dry with a long-empty echo. The party wondered if the well, necromancy, Agatha and Hamun are connected." }],
+    "theories": [], "related": ["hamun-kost"]
+  },
+  {
+    "id": "mormesk-warning", "question": "\"You'll leave something behind when you go. They always do.\"", "status": "open", "raised": 33,
+    "clues": [], "theories": [], "related": ["mormesk"]
+  },
+  {
+    "id": "glasstaff-warning", "question": "Glasstaff warned his operation wasn't the center of the larger threat. Was Nezznar the center?", "status": "open", "raised": 16,
+    "clues": [], "theories": [], "related": ["glasstaff", "nezznar"]
+  },
+  {
+    "id": "redbrand-crypt-letters", "question": "What's in the sealed letters from the Tresendar crypt coffin?", "status": "open", "raised": 25,
+    "clues": [{ "session": 25, "text": "Vexhar found a signet ring and a bundle of sealed letters, and left the ring out of respect." }],
+    "theories": [], "related": []
+  },
+  {
+    "id": "second-door", "question": "What was behind the second barricaded door?", "status": "resolved", "raised": 30, "resolved": 31,
+    "answer": "A flameskull in the old smelting chamber.",
+    "clues": [], "theories": [], "related": []
+  },
+  {
+    "id": "who-is-the-spider", "question": "Who is the Spider?", "status": "resolved", "raised": 4, "resolved": 30,
+    "answer": "Nezznar, a drow. Killed in session 32.",
+    "clues": [], "theories": [], "related": ["nezznar"]
+  },
+  {
+    "id": "who-is-glasstaff", "question": "Who is Glasstaff?", "status": "resolved", "raised": 10, "resolved": 23,
+    "answer": "Iarno Albrek, Sildar's Lords' Alliance friend.",
+    "clues": [], "theories": [], "related": ["glasstaff"]
+  }
+]
