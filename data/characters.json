@@ -2,25 +2,69 @@
   {
     "id": "broc",
     "name": "Broc",
-    "aliases": ["Brock"],
+    "aliases": [
+      "Brock"
+    ],
     "status": "active",
     "class": "Sorcerer (Wild Magic)",
     "ancestry": "Elf (has darkvision and Fey Ancestry)",
     "level": 5,
     "summary": "A wild magic sorcerer and former opera performer. He speaks Goblin from past dealings with the Cragmaws and does most of the party's talking. He proposed the company name \"Brock and the Brockettes\".",
     "backstory": [
-      { "text": "Won over a skeptical opera-house crowd with a soliloquy, then threw up from nerves. Stage manager Tavros and colleague Selise were proud of him.", "sessions": [27] },
-      { "text": "A cloaked patron told him he was chasing control rather than art and that he would learn another way, then vanished.", "sessions": [27] },
-      { "text": "Dreamed of a dim stage and pink flame: his fire will grow but always cost something, and he must choose carefully what he offers.", "sessions": [3] }
+      {
+        "text": "Won over a skeptical opera-house crowd with a soliloquy, then threw up from nerves. Stage manager Tavros and colleague Selise were proud of him.",
+        "sessions": [
+          27
+        ]
+      },
+      {
+        "text": "A cloaked patron told him he was chasing control rather than art and that he would learn another way, then vanished.",
+        "sessions": [
+          27
+        ]
+      },
+      {
+        "text": "Dreamed of a dim stage and pink flame: his fire will grow but always cost something, and he must choose carefully what he offers.",
+        "sessions": [
+          3
+        ]
+      }
     ],
-    "notable_items": ["sylvan-talon-dagger", "nezznar-spider-staff", "plus-one-shield"],
-    "personal_quests": ["broc-cloaked-patron"],
+    "notable_items": [
+      "sylvan-talon-dagger",
+      "nezznar-spider-staff",
+      "plus-one-shield"
+    ],
+    "personal_quests": [
+      "broc-cloaked-patron"
+    ],
     "notes": [
-      { "text": "Training toward shield proficiency during downtime.", "sessions": [25, 31] },
-      { "text": "Swapped the Ray of Frost cantrip for Friends.", "sessions": [38] },
-      { "text": "Leads the festival ticket standings.", "sessions": [38] }
+      {
+        "text": "Training toward shield proficiency during downtime.",
+        "sessions": [
+          25,
+          31
+        ]
+      },
+      {
+        "text": "Swapped the Ray of Frost cantrip for Friends.",
+        "sessions": [
+          38
+        ]
+      },
+      {
+        "text": "Leads the festival ticket standings.",
+        "sessions": [
+          38
+        ]
+      }
     ],
-    "first_session": 1
+    "first_session": 1,
+    "tokens": {
+      "standing": "assets/tokens/broc-standing.webp",
+      "action": "assets/tokens/broc-action.webp",
+      "moving": "assets/tokens/broc-moving.webp"
+    }
   },
   {
     "id": "francis",
@@ -32,39 +76,121 @@
     "level": 5,
     "summary": "A paladin and former soldier of the Ironmark Legion who swore to always be there for his people. He wields Talon and the Shield of Tyr. He is currently afflicted by the aboleth's ichor.",
     "backstory": [
-      { "text": "Captain Varron Maelor abandoned the signal for reinforcements and left Francis's squad to die. Francis stayed and saved Sergeant Aldric Voss, Edden and Davan.", "sessions": [27] },
-      { "text": "Dreamed his captain walked away, and a voice said: \"follow what he started or finish him.\"", "sessions": [3] }
+      {
+        "text": "Captain Varron Maelor abandoned the signal for reinforcements and left Francis's squad to die. Francis stayed and saved Sergeant Aldric Voss, Edden and Davan.",
+        "sessions": [
+          27
+        ]
+      },
+      {
+        "text": "Dreamed his captain walked away, and a voice said: \"follow what he started or finish him.\"",
+        "sessions": [
+          3
+        ]
+      }
     ],
-    "notable_items": ["talon", "shield-of-tyr", "dust-of-dryness", "platinum-filigree-pipe", "fancy-ale-mug"],
-    "personal_quests": ["francis-varron-maelor", "cure-francis"],
+    "notable_items": [
+      "talon",
+      "shield-of-tyr",
+      "dust-of-dryness",
+      "platinum-filigree-pipe",
+      "fancy-ale-mug"
+    ],
+    "personal_quests": [
+      "francis-varron-maelor",
+      "cure-francis"
+    ],
     "notes": [
-      { "text": "Ichor from the aboleth clings to him. Only magical healing works, he cannot rest, and he takes recurring acid damage (1d12).", "sessions": [37, 38] },
-      { "text": "The Harpers want to sit down with him about joining or working alongside them, and he agreed to meet.", "sessions": [38] },
-      { "text": "Summons a wolf with Find Steed.", "sessions": [34, 35] },
-      { "text": "Rolled a 26 and tore a whole apple tree out of the ground.", "sessions": [35] }
+      {
+        "text": "Ichor from the aboleth clings to him. Only magical healing works, he cannot rest, and he takes recurring acid damage (1d12).",
+        "sessions": [
+          37,
+          38
+        ]
+      },
+      {
+        "text": "The Harpers want to sit down with him about joining or working alongside them, and he agreed to meet.",
+        "sessions": [
+          38
+        ]
+      },
+      {
+        "text": "Summons a wolf with Find Steed.",
+        "sessions": [
+          34,
+          35
+        ]
+      },
+      {
+        "text": "Rolled a 26 and tore a whole apple tree out of the ground.",
+        "sessions": [
+          35
+        ]
+      }
     ],
     "first_session": 1
   },
   {
     "id": "levon",
     "name": "Levon",
-    "aliases": ["Levon Tostig"],
+    "aliases": [
+      "Levon Tostig"
+    ],
     "status": "active",
     "class": "Barbarian (Vitality of the Tree: Path of the World Tree)",
     "ancestry": null,
     "level": 5,
     "summary": "A huge barbarian woodworker from his father Alvin's farm near Phandalin. He swings the greataxe Choppy, carries a glowing cheese on his belt for light, and owes a debt to a tree.",
     "backstory": [
-      { "text": "Took wood from a forbidden part of the forest against his father's wishes and now \"owes that tree a debt\". His eyes have been changing. Alvin says it is a consequence, not a curse.", "sessions": [7] },
-      { "text": "Dreamed of an ancient forest with a massive split, fallen tree: he disturbed what was rooted and must carry that weight forward.", "sessions": [3] },
-      { "text": "Mended a fence while Alvin watched without helping. Alvin told him he'd \"be fine\" and that he was meant for more than the farm.", "sessions": [27] }
+      {
+        "text": "Took wood from a forbidden part of the forest against his father's wishes and now \"owes that tree a debt\". His eyes have been changing. Alvin says it is a consequence, not a curse.",
+        "sessions": [
+          7
+        ]
+      },
+      {
+        "text": "Dreamed of an ancient forest with a massive split, fallen tree: he disturbed what was rooted and must carry that weight forward.",
+        "sessions": [
+          3
+        ]
+      },
+      {
+        "text": "Mended a fence while Alvin watched without helping. Alvin told him he'd \"be fine\" and that he was meant for more than the farm.",
+        "sessions": [
+          27
+        ]
+      }
     ],
-    "notable_items": ["choppy", "cloak-of-protection", "wand-of-magic-missiles", "candle-of-the-deep", "carved-sapling", "second-best-ladle"],
-    "personal_quests": ["levon-tree-debt"],
+    "notable_items": [
+      "choppy",
+      "cloak-of-protection",
+      "wand-of-magic-missiles",
+      "candle-of-the-deep",
+      "carved-sapling",
+      "second-best-ladle"
+    ],
+    "personal_quests": [
+      "levon-tree-debt"
+    ],
     "notes": [
-      { "text": "Carved and set Tharden's grave marker and promised to maintain it.", "sessions": [38] },
-      { "text": "Won Toblen's festival cooking contest. His dish will be served at the inn.", "sessions": [38] },
-      { "text": "Requested a woodshop at Tresendar Manor stocked with its broken mahogany furniture.", "sessions": [36] }
+      {
+        "text": "Carved and set Tharden's grave marker and promised to maintain it.",
+        "sessions": [
+          38
+        ]
+      },
+      {
+        "text": "Won Toblen's festival cooking contest. His dish will be served at the inn.",
+        "sessions": [
+          38
+        ]
+      },
+      {
+        "text": "Requested a woodshop at Tresendar Manor stocked with its broken mahogany furniture.",
+        "sessions": [
+          36
+        ]
+      }
     ],
     "first_session": 1
   },
@@ -78,66 +204,191 @@
     "level": 5,
     "summary": "A drow wizard drifting into necromancy. A sigil branded on his hand ties him to a voice that calls him \"little scholar\". The Spider's network had flagged him before the party ever arrived.",
     "backstory": [
-      { "text": "Completed a forbidden summoning ritual in his hidden workshop. A voice answered, offering power and knowledge in exchange for future acknowledgment that knowledge isn't free. He copied the resulting sigil down for study.", "sessions": [27] },
-      { "text": "Dreamed of an endless arcane library: knowledge he buried is still reaching upward, and he will face it when ready.", "sessions": [3] },
-      { "text": "Nezznar said Vexhar was known as a drow running errands in the Neverwinter underworld, and that someone else in the operation took an interest in him first. Vexhar says he's not sure he even knows his employer's name.", "sessions": [32] }
+      {
+        "text": "Completed a forbidden summoning ritual in his hidden workshop. A voice answered, offering power and knowledge in exchange for future acknowledgment that knowledge isn't free. He copied the resulting sigil down for study.",
+        "sessions": [
+          27
+        ]
+      },
+      {
+        "text": "Dreamed of an endless arcane library: knowledge he buried is still reaching upward, and he will face it when ready.",
+        "sessions": [
+          3
+        ]
+      },
+      {
+        "text": "Nezznar said Vexhar was known as a drow running errands in the Neverwinter underworld, and that someone else in the operation took an interest in him first. Vexhar says he's not sure he even knows his employer's name.",
+        "sessions": [
+          32
+        ]
+      }
     ],
-    "notable_items": ["hat-of-wizardry", "scroll-of-remove-curse", "potion-of-invisibility"],
-    "personal_quests": ["vexhar-voice"],
+    "notable_items": [
+      "hat-of-wizardry",
+      "scroll-of-remove-curse",
+      "potion-of-invisibility"
+    ],
+    "personal_quests": [
+      "vexhar-voice"
+    ],
     "companions": [
-      { "name": "Vexhar Jr.", "text": "Bugbear zombie raised with the sigil.", "sessions": [30] },
-      { "name": "Little Vexhar Jr.", "text": "Second zombie, destroyed by a zombie's bite.", "sessions": [31] },
-      { "name": "Nezznar (zombie)", "text": "Raised from the Spider's corpse, destroyed by a ghoul at the forge.", "sessions": [33, 35] }
+      {
+        "name": "Vexhar Jr.",
+        "text": "Bugbear zombie raised with the sigil.",
+        "sessions": [
+          30
+        ]
+      },
+      {
+        "name": "Little Vexhar Jr.",
+        "text": "Second zombie, destroyed by a zombie's bite.",
+        "sessions": [
+          31
+        ]
+      },
+      {
+        "name": "Nezznar (zombie)",
+        "text": "Raised from the Spider's corpse, destroyed by a ghoul at the forge.",
+        "sessions": [
+          33,
+          35
+        ]
+      }
     ],
     "notes": [
-      { "text": "Fed on Klarg's corpse. The party noticed.", "sessions": [5] },
-      { "text": "Is trying to copy the Remove Curse scroll into his spellbook: 6 hours, 150 gp, a DC 13 check, then a day to prepare it.", "sessions": [38] },
-      { "text": "Training with the herbalism kit toward brewing healing potions. Has research points on the Forge of Spells.", "sessions": [25, 35] }
+      {
+        "text": "Fed on Klarg's corpse. The party noticed.",
+        "sessions": [
+          5
+        ]
+      },
+      {
+        "text": "Is trying to copy the Remove Curse scroll into his spellbook: 6 hours, 150 gp, a DC 13 check, then a day to prepare it.",
+        "sessions": [
+          38
+        ]
+      },
+      {
+        "text": "Training with the herbalism kit toward brewing healing potions. Has research points on the Forge of Spells.",
+        "sessions": [
+          25,
+          35
+        ]
+      }
     ],
     "first_session": 1
   },
   {
     "id": "blue",
     "name": "Blue",
-    "aliases": ["Blue Glaucus"],
+    "aliases": [
+      "Blue Glaucus"
+    ],
     "status": "active",
     "class": "Bard (Mantle of Inspiration: College of Glamour)",
     "ancestry": null,
     "level": 5,
     "summary": "A bard who escaped ten years of captivity in Lintri's Coral Court in the Feywild and chose the name Blue Glaucus. She kills with words: King Grol died to her Vicious Mockery.",
     "backstory": [
-      { "text": "Escaped Lintri's Coral Court through an unstable glowing pool as the domain began to crack. She came out free but hollowed and changed.", "sessions": [27] },
-      { "text": "Her father and brother are \"a complicated question\". Every day she spends here is a day she doesn't spend there, which she calls a blessing.", "sessions": [35] }
+      {
+        "text": "Escaped Lintri's Coral Court through an unstable glowing pool as the domain began to crack. She came out free but hollowed and changed.",
+        "sessions": [
+          27
+        ]
+      },
+      {
+        "text": "Her father and brother are \"a complicated question\". Every day she spends here is a day she doesn't spend there, which she calls a blessing.",
+        "sessions": [
+          35
+        ]
+      }
     ],
-    "notable_items": ["drowned-pan-flute"],
-    "personal_quests": ["blue-feywild"],
+    "notable_items": [
+      "drowned-pan-flute"
+    ],
+    "personal_quests": [
+      "blue-feywild"
+    ],
     "notes": [
-      { "text": "Rescued alongside Allyanna from Glasstaff's cells.", "sessions": [15, 16] },
-      { "text": "Researched the Feywild and returnees but failed both checks, so her information points the wrong way.", "sessions": [38] },
-      { "text": "Announced a party buddy system after the false Nundro.", "sessions": [33] }
+      {
+        "text": "Rescued alongside Allyanna from Glasstaff's cells.",
+        "sessions": [
+          15,
+          16
+        ]
+      },
+      {
+        "text": "Researched the Feywild and returnees but failed both checks, so her information points the wrong way.",
+        "sessions": [
+          38
+        ]
+      },
+      {
+        "text": "Announced a party buddy system after the false Nundro.",
+        "sessions": [
+          33
+        ]
+      }
     ],
-    "first_session": 15
+    "first_session": 15,
+    "tokens": {
+      "standing": "assets/tokens/blue-standing.webp",
+      "action": "assets/tokens/blue-action.webp",
+      "down": "assets/tokens/blue-down.webp"
+    }
   },
   {
     "id": "allyanna",
     "name": "Allyanna",
-    "aliases": ["Eliana"],
+    "aliases": [
+      "Eliana"
+    ],
     "status": "active",
     "class": "Warlock (Celestial, Pact of the Blade)",
     "ancestry": null,
     "level": 5,
     "summary": "A former roadside charlatan whose fake blessing became real when Solas, a herald of Lathander, answered and offered a pact. She lands the killing Eldritch Blast more often than not: the flameskull, Nezznar and the aboleth.",
     "backstory": [
-      { "text": "On the road to Phandalin she sold a fake blessing to a traveler fleeing a gray-skinned creature. Solas answered through her and made the protection real.", "sessions": [27] }
+      {
+        "text": "On the road to Phandalin she sold a fake blessing to a traveler fleeing a gray-skinned creature. Solas answered through her and made the protection real.",
+        "sessions": [
+          27
+        ]
+      }
     ],
-    "notable_items": ["shield-staff"],
-    "personal_quests": ["allyanna-solas"],
+    "notable_items": [
+      "shield-staff"
+    ],
+    "personal_quests": [
+      "allyanna-solas"
+    ],
     "notes": [
-      { "text": "Rescued alongside Blue from Glasstaff's cells.", "sessions": [15, 16] },
-      { "text": "Called on her patron to help Francis and got no answer.", "sessions": [37] },
-      { "text": "Earned the party 7 gp juggling lemons.", "sessions": [25] }
+      {
+        "text": "Rescued alongside Blue from Glasstaff's cells.",
+        "sessions": [
+          15,
+          16
+        ]
+      },
+      {
+        "text": "Called on her patron to help Francis and got no answer.",
+        "sessions": [
+          37
+        ]
+      },
+      {
+        "text": "Earned the party 7 gp juggling lemons.",
+        "sessions": [
+          25
+        ]
+      }
     ],
-    "first_session": 15
+    "first_session": 15,
+    "tokens": {
+      "standing": "assets/tokens/allyanna-standing.webp",
+      "action": "assets/tokens/allyanna-action.webp",
+      "down": "assets/tokens/allyanna-down.webp"
+    }
   },
   {
     "id": "caine",
@@ -149,13 +400,28 @@
     "level": 3,
     "summary": "A healer from a monastery who prays to the Earth Mother. He left the party after Wyvern Tor to help rebuild his monastery, and took Glasstaff's correspondence with him.",
     "backstory": [
-      { "text": "Dreamed of a monastery courtyard collapsing into smoke, with an ember in his palm: \"follow the ember.\"", "sessions": [3] }
+      {
+        "text": "Dreamed of a monastery courtyard collapsing into smoke, with an ember in his palm: \"follow the ember.\"",
+        "sessions": [
+          3
+        ]
+      }
     ],
     "notable_items": [],
     "personal_quests": [],
     "notes": [
-      { "text": "Killed the bugbear leader Nosk with a single mace blow.", "sessions": [10] },
-      { "text": "Departed to rebuild the monastery and kept his share of the money for it.", "sessions": [14] }
+      {
+        "text": "Killed the bugbear leader Nosk with a single mace blow.",
+        "sessions": [
+          10
+        ]
+      },
+      {
+        "text": "Departed to rebuild the monastery and kept his share of the money for it.",
+        "sessions": [
+          14
+        ]
+      }
     ],
     "first_session": 1,
     "last_session": 14
@@ -170,12 +436,31 @@
     "level": null,
     "summary": "A goblin captured at the first ambush who became a loyal companion. He left with Droop to live with the Scraptops and now runs a goblin farming commune the party keeps sending allies to.",
     "backstory": [],
-    "notable_items": ["cloak-of-the-manta-ray"],
+    "notable_items": [
+      "cloak-of-the-manta-ray"
+    ],
     "personal_quests": [],
     "notes": [
-      { "text": "Survived on a natural 20 death save in the Tresendar crypt.", "sessions": [8] },
-      { "text": "Left with Droop for the Scraptops.", "sessions": [16] },
-      { "text": "His goblins may guard Wave Echo Cave and clear the forge's undead. Gundren will pay them himself.", "sessions": [34, 35, 36] }
+      {
+        "text": "Survived on a natural 20 death save in the Tresendar crypt.",
+        "sessions": [
+          8
+        ]
+      },
+      {
+        "text": "Left with Droop for the Scraptops.",
+        "sessions": [
+          16
+        ]
+      },
+      {
+        "text": "His goblins may guard Wave Echo Cave and clear the forge's undead. Gundren will pay them himself.",
+        "sessions": [
+          34,
+          35,
+          36
+        ]
+      }
     ],
     "first_session": 2,
     "last_session": 16
