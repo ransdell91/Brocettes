@@ -281,7 +281,12 @@
         ]
       }
     ],
-    "first_session": 1
+    "first_session": 1,
+    "tokens": {
+      "standing": "assets/tokens/vexhar-standing.webp",
+      "action": "assets/tokens/vexhar-action.webp",
+      "down": "assets/tokens/vexhar-down.webp"
+    }
   },
   {
     "id": "blue",
