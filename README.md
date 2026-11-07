@@ -4,7 +4,7 @@ A player-facing companion for our *Phandelver and Below: The Shattered Obelisk* 
 searchable characters, NPCs, quests, mysteries, lore and session recaps, built from the
 session notes our bot writes to Google Docs.
 
-**Live site:** https://ransdell91.github.io/brocettes/
+**Live site:** https://ransdell91.github.io/Brocettes/
 
 ## How it works
 - `index.html`, `app.css` and `app.js` are the whole app: no build step. It reads `data/*.json` in the browser.
