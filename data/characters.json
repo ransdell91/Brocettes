@@ -197,7 +197,12 @@
         ]
       }
     ],
-    "first_session": 1
+    "first_session": 1,
+    "tokens": {
+      "standing": "assets/tokens/levon-standing.webp",
+      "action": "assets/tokens/levon-action.webp",
+      "down": "assets/tokens/levon-down.webp"
+    }
   },
   {
     "id": "vexhar",
