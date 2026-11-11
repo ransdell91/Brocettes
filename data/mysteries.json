@@ -5,9 +5,13 @@
       { "session": 37, "text": "Pale, slick, clinging skin. It won't wash off and blocks rest and nonmagical healing." },
       { "session": 37, "text": "Blue's Detect Magic showed Francis glowing, but Broc's showed no magic from his body." },
       { "session": 37, "text": "Healing Light works. Lesser Restoration fought it and failed." },
-      { "session": 38, "text": "Recurring 1d12 acid pain. Medicine checks (DC 15) found no cause." }
+      { "session": 38, "text": "Recurring 1d12 acid pain. Medicine checks (DC 15) found no cause." },
+      { "session": 39, "text": "Repeated acid hits left him bloodied by day's end. Mud on bare skin stopped the itching (Medicine 11), but it's unclear whether the water matters, and the mud was 19–27% horse manure." }
     ],
-    "theories": [{ "by": "Allyanna", "text": "Needs something stronger than Lesser Restoration." }],
+    "theories": [
+      { "by": "Allyanna", "text": "Needs something stronger than Lesser Restoration." },
+      { "by": "The party", "text": "Test with manure-free mud to learn which part is helping." }
+    ],
     "related": ["cure-francis", "aboleth"]
   },
   {
@@ -68,9 +72,33 @@
   },
   {
     "id": "goat", "question": "What spooked the goat toward the old mine road?", "status": "open", "raised": 38,
-    "clues": [{ "session": 38, "text": "It let out a cry that didn't sound like a goat and avoided that end of the grounds all day. A bystander said it \"smelled the wolf\"." }],
+    "clues": [
+      { "session": 38, "text": "It let out a cry that didn't sound like a goat and avoided that end of the grounds all day. A bystander said it \"smelled the wolf\"." },
+      { "session": 39, "text": "At the festival's close, one lantern turned against the breeze over the Old Mine Road and winked out." }
+    ],
     "theories": [{ "by": "Blue", "text": "It smelled her cooking." }],
-    "related": []
+    "related": ["old-mine-road", "drifting-lantern"]
+  },
+  {
+    "id": "humming-dwarf", "question": "Who was the humming dwarven woman only Blue could see?", "status": "open", "raised": 39,
+    "clues": [
+      { "session": 39, "text": "Blue rolled a natural 20 (27) to trace a slow humming that didn't match the fiddler's tune. The woman wore blue robes, had white ink sigils up both forearms and a satchel of scrolls, and was copying into a book." },
+      { "session": 39, "text": "She vanished from her crate when children ran past. Nobody else noticed, and Blue kept it to herself." }
+    ],
+    "theories": [], "related": ["humming-dwarf-woman"]
+  },
+  {
+    "id": "drifting-lantern", "question": "Why did one festival lantern turn against the wind over the Old Mine Road?", "status": "open", "raised": 39,
+    "clues": [{ "session": 39, "text": "It stayed aloft after the rest drifted away, turned against the breeze over the Old Mine Road, and winked out." }],
+    "theories": [], "related": ["old-mine-road", "goat"]
+  },
+  {
+    "id": "festival-prizes", "question": "Do the festival prizes mean anything?", "status": "open", "raised": 39,
+    "clues": [
+      { "session": 39, "text": "The portrait Francis bought shows Scringle McGruffle, a thief from Waterdeep." },
+      { "session": 39, "text": "Festival folk knew the party by name. Paul suggested Harbin had been talking them up." }
+    ],
+    "theories": [], "related": ["scringle-portrait", "unwavering-compass", "scringle-mcgruffle"]
   },
   {
     "id": "tharden-killer", "question": "Who killed Tharden?", "status": "open", "raised": 25,

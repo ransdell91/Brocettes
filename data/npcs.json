@@ -50,9 +50,10 @@
       { "text": "Sent the party to the banshee Agatha with a jeweled silver comb to learn the fate of Bowgentle's spellbook. Rewarded them with 3 potions of healing.", "confidence": "confirmed", "sessions": [6, 23] },
       { "text": "Took a sample of Francis's ichor to the clergy and expects answers in two to four nights.", "confidence": "confirmed", "sessions": [37] },
       { "text": "Is secretly a Harper sent to investigate Phandalin. She asked the party to keep it quiet.", "confidence": "confirmed", "sessions": [38] },
-      { "text": "Delivered a scroll of Remove Curse for Francis.", "confidence": "confirmed", "sessions": [38] }
+      { "text": "Delivered a scroll of Remove Curse for Francis.", "confidence": "confirmed", "sessions": [38] },
+      { "text": "Lit the paper lanterns released at the festival's close.", "confidence": "confirmed", "sessions": [39] }
     ],
-    "first_session": 6, "last_session": 38
+    "first_session": 6, "last_session": 39
   },
   {
     "id": "harbin-wester", "name": "Harbin Wester", "aliases": [],
@@ -61,9 +62,12 @@
       { "text": "Paid bounties: 500 gp for Cragmaw Castle, 100 for the Redbrands, 100 for Wyvern Tor.", "confidence": "confirmed", "sessions": [24] },
       { "text": "Gave the party the deed to Tresendar Manor on behalf of the town, with restoration paid for.", "confidence": "confirmed", "sessions": [36] },
       { "text": "Broc openly criticized his leadership. The party feels he owes them an apology.", "confidence": "confirmed", "sessions": [24, 35] },
-      { "text": "Stepped back from Francis after seeing him take acid damage at the festival.", "confidence": "confirmed", "sessions": [38] }
+      { "text": "Stepped back from Francis after seeing him take acid damage at the festival.", "confidence": "confirmed", "sessions": [38] },
+      { "text": "Refereed the tug of war, stopped Francis from tickling Big Hollis, and gave each party member five tickets.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "Announced the festival awards and named Levon champion of the festival.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "Has been talking the party up, which is why festival folk knew their names.", "confidence": "claimed", "claimed_by": "Paul (DM suggestion)", "sessions": [39] }
     ],
-    "first_session": 7, "last_session": 38
+    "first_session": 7, "last_session": 39
   },
   {
     "id": "toblen-stonehill", "name": "Toblen Stonehill", "aliases": ["Toblin"],
@@ -137,14 +141,82 @@
   {
     "id": "madame-vane", "name": "Madame Ilsbeth Vane", "aliases": ["the fortune teller"],
     "role": "Festival fortune teller", "status": "alive", "attitude": "neutral", "location": "fairgrounds", "factions": ["festival"],
-    "facts": [{ "text": "Read every card correctly except Blue's (The Tower). Allyanna accused her of cheating and she denied it.", "confidence": "confirmed", "sessions": [38] }],
-    "first_session": 38, "last_session": 38
+    "facts": [
+      { "text": "Read every card correctly except Blue's (The Tower). Allyanna accused her of cheating and she denied it.", "confidence": "confirmed", "sessions": [38] },
+      { "text": "Her riddle stage decided Keenest Wit: Broc and Allyanna tied with two riddles each.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 38, "last_session": 39
   },
   {
-    "id": "phelan-the-red", "name": "Phelan the Red", "aliases": [],
+    "id": "phelan-the-red", "name": "Phelan the Red", "aliases": ["Falin the Red"],
     "role": "Wood elf archer at the festival", "status": "alive", "attitude": "friendly", "location": "fairgrounds", "factions": ["festival"],
-    "facts": [{ "text": "Scored 8 in archery. Broc tied her and nobody beat her.", "confidence": "confirmed", "sessions": [38] }],
-    "first_session": 38, "last_session": 38
+    "facts": [
+      { "text": "Scored 8 in archery. Broc tied her and nobody beat her.", "confidence": "confirmed", "sessions": [38] },
+      { "text": "Her contest decided Sharpest Eye, which Vexhar won with six points.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 38, "last_session": 39
+  },
+  {
+    "id": "albrek", "name": "Albrek", "aliases": ["the carousel operator"],
+    "role": "Rock gnome carousel operator at the festival", "status": "alive", "attitude": "neutral", "location": "fairgrounds", "factions": ["festival"],
+    "facts": [
+      { "text": "Said any horse was free except the swan, which bites. Under Broc's Friends spell he said there was no trick, only that bigger riders had better odds.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "Paid 2 tickets for the brass ring and 5 for the gold ring. He said children earlier had let the ring go past five, and Francis challenged him to show how it's done.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "Not the same person as Iarno Albrek (Glasstaff).", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 39, "last_session": 39
+  },
+  {
+    "id": "fenwick-fingers-toll", "name": "Fenwick Fingers Toll", "aliases": ["Fenwick", "Fenwin"],
+    "role": "Runs the festival's cup and pea game", "status": "alive", "attitude": "neutral", "location": "fairgrounds", "factions": ["festival"],
+    "facts": [
+      { "text": "Paid double tickets for finding the pea. An older townsman shouted that Fenwick had cost him his boots.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "Francis's Insight marked him as a trickster. Broc and Allyanna lost; Levon, Blue and Francis won. He and Francis traded rude gestures.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "Addressed each party member by name before closing his game.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 38, "last_session": 39
+  },
+  {
+    "id": "big-hollis", "name": "Big Hollis", "aliases": [],
+    "role": "Half-orc anchor of the circus tug of war crew", "status": "alive", "attitude": "neutral", "location": "fairgrounds", "factions": ["festival"],
+    "facts": [
+      { "text": "About eight and a half feet tall. His crew had not lost a tug of war in the last seven towns until Phandalin beat them.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "His rope bracelet went to Francis as the award for the mightiest single pull. Francis tried to tickle him after the match.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 39, "last_session": 39
+  },
+  {
+    "id": "corwin-thistlewick", "name": "Corwin Thistlewick", "aliases": [],
+    "role": "Runs the festival's novelty prize tent", "status": "alive", "attitude": "friendly", "location": "fairgrounds", "factions": ["festival"],
+    "facts": [
+      { "text": "Let the party haggle at first, recognized Broc, then fixed his prices.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 39, "last_session": 39
+  },
+  {
+    "id": "humming-dwarf-woman", "name": "Humming dwarven woman", "aliases": ["dwarf in blue robes"],
+    "role": "Stranger seen only by Blue at the festival", "status": "unknown", "attitude": "unknown", "location": "fairgrounds", "factions": [],
+    "facts": [
+      { "text": "Wore blue robes, had white ink sigils winding up both forearms and a satchel stuffed with scrolls. She hummed slowly, off the fiddler's tune, while copying into a book on her knee.", "confidence": "confirmed", "sessions": [39] },
+      { "text": "Vanished from her crate when children ran between her and Blue. Nobody else noticed her, and Blue hasn't told the party.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 39, "last_session": 39
+  },
+  {
+    "id": "pip-stonehill", "name": "Pip Stonehill", "aliases": [],
+    "role": "Phandalin child", "status": "alive", "attitude": "unknown", "location": "phandalin", "factions": [],
+    "facts": [
+      { "text": "Handed out paper lanterns with other children at the festival's close.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 39, "last_session": 39
+  },
+  {
+    "id": "scringle-mcgruffle", "name": "Scringle McGruffle", "aliases": [],
+    "role": "Thief from Waterdeep", "status": "unknown", "attitude": "unknown", "location": null, "factions": [],
+    "facts": [
+      { "text": "The subject of the portrait Francis bought at the novelty tent. Francis plans to ask every NPC about him.", "confidence": "confirmed", "sessions": [39] }
+    ],
+    "first_session": 39, "last_session": 39
   },
   {
     "id": "hamun-kost", "name": "Hamun Kost", "aliases": [],

@@ -18,7 +18,7 @@
   { "id": "phandalin-folk", "name": "Townsfolk of Phandalin", "type": "Town", "standing": "grateful",
     "description": "Free drinks, a manor deed, and a man at the bar who thanked them for dealing with the Redbrands.", "members": ["harbin-wester", "toblen-stonehill", "trilena-stonehill", "elmina", "daran-edermath", "torra-ironwell"], "sessions": [24, 35, 36] },
   { "id": "festival", "name": "The traveling festival", "type": "Circus", "standing": "neutral",
-    "description": "Red and cream wagons and a striped tent. It arrived at dusk in session 37.", "members": ["madame-vane", "phelan-the-red"], "sessions": [37, 38] },
+    "description": "Red and cream wagons and a striped tent. It arrived at dusk in session 37. Its tug of war crew had not lost in seven towns until Phandalin beat them.", "members": ["madame-vane", "phelan-the-red", "albrek", "fenwick-fingers-toll", "big-hollis", "corwin-thistlewick"], "sessions": [37, 38, 39] },
   { "id": "ironmark-legion", "name": "Ironmark Legion", "type": "Army", "standing": "unknown",
     "description": "Francis's former unit.", "members": ["varron-maelor"], "sessions": [27] }
 ]

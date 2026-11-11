@@ -585,5 +585,23 @@
       "Goat Bolts From the Mine Road",
       "Archery Contest Against Phelan the Red"
     ]
+  },
+  {
+    "number": 39,
+    "title": "Festival Games, Mud, and Awards",
+    "date": "2026-11-10",
+    "overview": "The party spent the second half of the Phandalin festival playing games and spending tickets while Francis struggled with his curse. They rode the carousel, played Fenwick Fingers Toll’s cup and pea game, and won a tug of war against Big Hollis and a circus crew that had not lost in seven towns. Broc’s Enlarge spell and a wild magic surge blinded the rope line, and Francis discovered that mud on his skin stops the itching from his curse. Five party members bought prizes at Corwin Thistlewick’s novelty tent, and Harbin Wester then handed out awards and named Levon champion of the festival. The night ended with lanterns and fireworks, after Blue noticed a humming dwarven woman that no one else saw and one lantern drifted out over the Old Mine Road.",
+    "where_we_left_off": "The festival ends with Phandalin asleep and the circus tent dark. Francis remains cursed, with the mud on his skin holding off the itching but drying out and needing frequent reapplication. Vexhar is about halfway through copying the scroll of remove curse, the Harpers’ request for a meeting remains open, and Francis still wants to learn whether the festival prizes carry any meaning. The lantern that drifted out over the Old Mine Road and Blue’s unshared sighting of the humming dwarven woman are unresolved. # **",
+    "scenes": [
+      "Recap of the Funeral and Festival",
+      "Carousel Brass Ring Challenge",
+      "Blue Spots a Humming Stranger",
+      "Fenwick’s Cup and Pea Game",
+      "Acid Pain and Carnival Suspicions",
+      "Tug of War Against Big Hollis",
+      "Francis Discovers Mud Eases the Itching",
+      "Novelty Tent Spending Spree",
+      "Festival Awards and Closing Fireworks"
+    ]
   }
 ]

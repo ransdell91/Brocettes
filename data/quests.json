@@ -2,35 +2,36 @@
   {
     "id": "cure-francis", "title": "Cure Francis's affliction", "type": "party", "storyline": "tresendar-manor",
     "status": "active", "giver": null, "started": 37,
-    "summary": "Aboleth ichor clings to Francis. He can't rest, only magical healing works, and the acid pain keeps coming back.",
+    "summary": "Aboleth ichor clings to Francis. He can't rest, only magical healing works, and the acid pain keeps coming back. Mud on his skin stops the itching for now, but it dries out and needs reapplying.",
     "objectives": [
       { "text": "Get Sister Garaele's clergy findings (expected 2–4 nights after session 37)", "done": false },
-      { "text": "Vexhar copies the Remove Curse scroll (6 hrs, 150 gp, DC 13, then a day to prepare it)", "done": false },
+      { "text": "Vexhar copies the Remove Curse scroll (6 hrs, 150 gp, DC 13, then a day to prepare it). About halfway as of session 39", "done": false },
+      { "text": "Find or make mud without manure to learn whether the mud, water or manure is helping", "done": false },
       { "text": "Lift the affliction", "done": false }
     ],
-    "reward": null, "sessions": [37, 38]
+    "reward": null, "sessions": [37, 38, 39]
   },
   {
     "id": "meet-the-harpers", "title": "Sit down with the Harpers", "type": "faction", "storyline": "harpers",
     "status": "active", "giver": "sister-garaele", "started": 38,
     "summary": "The Harpers have taken an interest in the party and want to talk with Francis about joining or working alongside them. Francis agreed to meet. Keep Garaele's secret.",
     "objectives": [{ "text": "Meet the Harpers", "done": false }],
-    "reward": null, "sessions": [38]
+    "reward": null, "sessions": [38, 39]
   },
   {
     "id": "phandalin-festival", "title": "Phandalin's festival", "type": "side", "storyline": null,
-    "status": "active", "giver": "harbin-wester", "started": 38,
-    "summary": "About halfway through. Tickets so far: Broc leads, then Levon, Allyanna, Vexhar, Francis and Blue.",
+    "status": "completed", "giver": "harbin-wester", "started": 38, "completed": 39,
+    "summary": "Done. Levon was named champion with 29 tickets, ahead of Blue 26, Francis 25, Broc 21, Vexhar 20 and Allyanna 19. Awards: Keenest Wit (Broc and Allyanna), Sharpest Eye (Vexhar), Golden Ladle (Levon), mightiest pull (Francis), Silver Tongue (Blue).",
     "objectives": [
       { "text": "Madame Vane's riddles and card reading", "done": true },
       { "text": "Cooking contest (Levon won)", "done": true },
       { "text": "Archery vs. Phelan the Red (Broc tied)", "done": true },
-      { "text": "Carousel", "done": false },
-      { "text": "Fenwin's cups", "done": false },
-      { "text": "Tug of war", "done": false },
-      { "text": "Prize tent", "done": false }
+      { "text": "Carousel (Francis, Levon and Blue caught the gold ring)", "done": true },
+      { "text": "Fenwick's cups", "done": true },
+      { "text": "Tug of war (beat Big Hollis's crew)", "done": true },
+      { "text": "Prize tent", "done": true }
     ],
-    "reward": "Prizes from the prize tent", "sessions": [37, 38]
+    "reward": "Prizes from Corwin's novelty tent and the festival awards (received)", "sessions": [37, 38, 39]
   },
   {
     "id": "restore-tresendar-manor", "title": "Restore Tresendar Manor as the party's bastion", "type": "party", "storyline": "tresendar-manor",

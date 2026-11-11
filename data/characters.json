@@ -33,7 +33,9 @@
     "notable_items": [
       "sylvan-talon-dagger",
       "nezznar-spider-staff",
-      "plus-one-shield"
+      "plus-one-shield",
+      "singing-stone-broc",
+      "tin-whistle"
     ],
     "personal_quests": [
       "broc-cloaked-patron"
@@ -53,9 +55,16 @@
         ]
       },
       {
-        "text": "Leads the festival ticket standings.",
+        "text": "Finished the festival with 21 tickets after leading the standings at the halfway point. Tied with Allyanna for Keenest Wit and bought a singing stone and a tin whistle at Corwin Thistlewick's tent.",
         "sessions": [
-          38
+          38,
+          39
+        ]
+      },
+      {
+        "text": "Cast Enlarge on Levon for the tug of war. A wild magic surge made him radiate bright light in a 30 ft radius that blinded the rope line.",
+        "sessions": [
+          39
         ]
       }
     ],
@@ -211,7 +220,10 @@
       "shield-of-tyr",
       "dust-of-dryness",
       "platinum-filigree-pipe",
-      "fancy-ale-mug"
+      "fancy-ale-mug",
+      "hollis-rope-bracelet",
+      "unwavering-compass",
+      "scringle-portrait"
     ],
     "personal_quests": [
       "francis-varron-maelor",
@@ -222,7 +234,20 @@
         "text": "Ichor from the aboleth clings to him. Only magical healing works, he cannot rest, and he takes recurring acid damage (1d12).",
         "sessions": [
           37,
-          38
+          38,
+          39
+        ]
+      },
+      {
+        "text": "Found that mud on bare skin stops the curse's itching. He rewrapped himself in mud-soaked bandages and plans to keep mud on at all times. It dries out and needs frequent reapplying, it may contain horse manure, and the party says he should sleep in the stables.",
+        "sessions": [
+          39
+        ]
+      },
+      {
+        "text": "Won the mightiest single pull award (Big Hollis's rope bracelet) in the tug of war. Bought the unwavering compass and the portrait of Scringle McGruffle, and means to ask every NPC about the portrait.",
+        "sessions": [
+          39
         ]
       },
       {
@@ -392,7 +417,8 @@
       "wand-of-magic-missiles",
       "candle-of-the-deep",
       "carved-sapling",
-      "second-best-ladle"
+      "second-best-ladle",
+      "golden-ladle"
     ],
     "personal_quests": [
       "levon-tree-debt"
@@ -408,6 +434,12 @@
         "text": "Won Toblen's festival cooking contest. His dish will be served at the inn.",
         "sessions": [
           38
+        ]
+      },
+      {
+        "text": "Named champion of the festival for the most tickets (29). Also received the Golden Ladle for best dish and a jar of the cook's spice rub.",
+        "sessions": [
+          39
         ]
       },
       {
@@ -542,7 +574,8 @@
     "notable_items": [
       "hat-of-wizardry",
       "scroll-of-remove-curse",
-      "potion-of-invisibility"
+      "potion-of-invisibility",
+      "lucky-deck"
     ],
     "personal_quests": [
       "vexhar-voice"
@@ -579,9 +612,16 @@
         ]
       },
       {
-        "text": "Is trying to copy the Remove Curse scroll into his spellbook: 6 hours, 150 gp, a DC 13 check, then a day to prepare it.",
+        "text": "Is trying to copy the Remove Curse scroll into his spellbook: 6 hours, 150 gp, a DC 13 check, then a day to prepare it. About halfway through after roughly five hours at the fair.",
         "sessions": [
-          38
+          38,
+          39
+        ]
+      },
+      {
+        "text": "Won Sharpest Eye with six points in the archery contest, saying he was studying his scroll and not trying to shoot. Bought the lucky deck of 51 cards.",
+        "sessions": [
+          39
         ]
       },
       {
@@ -744,7 +784,8 @@
       }
     ],
     "notable_items": [
-      "drowned-pan-flute"
+      "drowned-pan-flute",
+      "owlbear-plush"
     ],
     "personal_quests": [
       "blue-feywild"
@@ -767,6 +808,18 @@
         "text": "Announced a party buddy system after the false Nundro.",
         "sessions": [
           33
+        ]
+      },
+      {
+        "text": "Was the only one to notice a humming dwarven woman at the festival (natural 20 Perception), and chose not to tell the others.",
+        "sessions": [
+          39
+        ]
+      },
+      {
+        "text": "Won the Silver Tongue of the Fair for sweet-talking Corwin into selling her the giant stuffed owlbear plush for 18 tickets.",
+        "sessions": [
+          39
         ]
       }
     ],
@@ -911,7 +964,8 @@
       }
     ],
     "notable_items": [
-      "shield-staff"
+      "shield-staff",
+      "singing-stone-allyanna"
     ],
     "personal_quests": [
       "allyanna-solas"
@@ -934,6 +988,12 @@
         "text": "Earned the party 7 gp juggling lemons.",
         "sessions": [
           25
+        ]
+      },
+      {
+        "text": "Tied with Broc for Keenest Wit at the festival and haggled down a singing stone at Corwin's tent.",
+        "sessions": [
+          39
         ]
       }
     ],

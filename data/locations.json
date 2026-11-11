@@ -1,6 +1,6 @@
 [
   { "id": "phandalin", "name": "Phandalin", "type": "Town", "parent": null,
-    "description": "A frontier town on the Triboar Trail with no guards until Sildar's new watch. It was a booming trade center centuries ago when the forge was active. Its festival is underway.", "sessions": [5, 6, 7, 23, 24, 35, 36, 37, 38] },
+    "description": "A frontier town on the Triboar Trail with no guards until Sildar's new watch. It was a booming trade center centuries ago when the forge was active. Its festival ended with lanterns and fireworks.", "sessions": [5, 6, 7, 23, 24, 35, 36, 37, 38, 39] },
   { "id": "stonehill-inn", "name": "Stonehill Inn", "type": "Inn", "parent": "phandalin", "description": "Toblen and Trilena Stonehill's inn and the party's usual base.", "sessions": [6, 7, 24, 35, 36] },
   { "id": "shrine-of-luck", "name": "Shrine of Luck", "type": "Shrine", "parent": "phandalin", "description": "Sister Garaele's shrine.", "sessions": [6, 23, 35, 37, 38] },
   { "id": "townmasters-hall", "name": "Townmaster's Hall", "type": "Government", "parent": "phandalin", "description": "Harbin Wester's office.", "sessions": [7, 23, 24, 36] },
@@ -12,7 +12,8 @@
   { "id": "redbrand-hideout", "name": "Redbrand hideout", "type": "Dungeon", "parent": "tresendar-manor", "description": "Cellar, cistern, barracks, cells, crevasse (the nothic's lair) and the Tresendar family crypt.", "sessions": [8, 9, 10, 11, 12, 25] },
   { "id": "tresendar-drains", "name": "Drains beneath Tresendar Manor", "type": "Sewers", "parent": "tresendar-manor", "description": "Rat swarms, crushed pipes, and the flooded chamber where the aboleth died.", "sessions": [36, 37] },
   { "id": "phandalin-cemetery", "name": "Phandalin cemetery", "type": "Cemetery", "parent": "phandalin", "description": "Tharden's grave, under Levon's marker.", "sessions": [38] },
-  { "id": "fairgrounds", "name": "Festival fairgrounds", "type": "Fair", "parent": "phandalin", "description": "A red and cream striped circus tent, food stalls and games. The old mine road runs past one end.", "sessions": [37, 38] },
+  { "id": "fairgrounds", "name": "Festival fairgrounds", "type": "Fair", "parent": "phandalin", "description": "A red and cream striped circus tent, food stalls and games, a carousel, Fenwick's cups, the tug of war rope and Corwin's novelty tent. The old mine road runs past one end.", "sessions": [37, 38, 39] },
+  { "id": "old-mine-road", "name": "Old Mine Road", "type": "Road", "parent": "phandalin", "description": "Runs past one end of the fairgrounds. A fairground goat bolted from it, and a lone lantern turned against the breeze over it and winked out.", "sessions": [38, 39] },
   { "id": "tostig-farm", "name": "Tostig farm", "type": "Farm", "parent": "phandalin", "description": "Alvin's homestead, where Levon grew up.", "sessions": [7, 27] },
   { "id": "edermath-orchard", "name": "Daran Edermath's orchard", "type": "Orchard", "parent": "phandalin", "description": "Apples at 1 sp a basket. Mind the tree Francis replanted.", "sessions": [35] },
   { "id": "cragmaw-hideout", "name": "Cragmaw hideout", "type": "Cave", "parent": null, "description": "Klarg's cave north of the ambush site, with wolves, a flood trap and a rope bridge.", "sessions": [2, 3, 4, 5] },
