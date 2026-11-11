@@ -20,9 +20,12 @@
     { "from": "lenine-graywind", "text": "Standing 10% discount at the Lion's Shield Coster", "sessions": [24] },
     { "from": "mirna-dendrar", "text": "A reward for recovering her heirloom from Thundertree", "sessions": [9] },
     { "from": "hamun-kost", "text": "Arcane insight in exchange for news of Bowgentle's spellbook or the necromancer", "sessions": [18] },
+    { "from": "bugbear-captain", "text": "Protect Craig's goblin commune, in exchange for his life", "sessions": [30, 31] },
     { "from": "harbin-wester", "text": "An apology, in the party's opinion", "sessions": [35] }
   ],
   "party_owes": [
+    { "to": "vexhar", "text": "Francis owes Vexhar a favor for the Remove Curse scroll: keep him alive", "sessions": [38] },
+    { "to": "blue", "text": "Broc and Levon promised nobody will drag Blue back to the Feywild", "sessions": [35] },
     { "to": "sister-garaele", "text": "Keep her Harper identity secret", "sessions": [38] },
     { "to": "gundren-rockseeker", "text": "Answer for any trouble caused by Craig's goblins guarding the mine", "sessions": [34] },
     { "to": "tharden-rockseeker", "text": "Levon promised to maintain the grave marker", "sessions": [38] },

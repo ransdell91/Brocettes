@@ -67,6 +67,34 @@
     "reward": "10% of Wave Echo Cave's profits once it's running", "sessions": [34, 35]
   },
   {
+    "id": "craig-mine-guards", "title": "Set up Craig's goblins as mine guards", "type": "party", "storyline": "wave-echo-cave",
+    "status": "active", "giver": "gundren-rockseeker", "started": 34,
+    "summary": "The party proposed that Craig's goblin commune, and a bugbear, could guard Wave Echo Cave. Gundren agreed and said he'll pay the goblins a flat percentage himself, without touching the party's 10%. The party answers for any trouble they cause.",
+    "objectives": [
+      { "text": "Get word to Craig (Broc's letter; Toblen's carrier couldn't promise delivery)", "done": false },
+      { "text": "Craig's goblins agree and arrive at the mine", "done": false },
+      { "text": "Gundren settles the goblins' pay", "done": false }
+    ],
+    "reward": "Good standing for the goblins in Phandalin", "sessions": [34, 35, 36]
+  },
+  {
+    "id": "bugbear-parole", "title": "The bugbear captain's parole", "type": "side", "storyline": "wave-echo-cave",
+    "status": "active", "giver": null, "started": 30,
+    "summary": "Instead of killing the bugbear captain in Wave Echo Cave, Francis and Blue let him go on a promise: he travels to Craig's goblin commune and helps protect it, using Craig as a reference. A faked illusion mark keeps him honest.",
+    "objectives": [{ "text": "Confirm he reached Craig's commune and kept his word", "done": false }],
+    "reward": null, "sessions": [30, 31]
+  },
+  {
+    "id": "elmina-message", "title": "Tell Gundren that Elmina was worried", "type": "side", "storyline": null,
+    "status": "active", "giver": "elmina", "started": 5,
+    "summary": "At Barthen's Provisions, Elmina asked the party to let Gundren know she was worried about him if they found him. The party promised they wouldn't leave him out there alone. Gundren is home now, but the notes never mention passing her message on.",
+    "objectives": [
+      { "text": "Find Gundren", "done": true },
+      { "text": "Pass Elmina's message on", "done": false }
+    ],
+    "reward": null, "sessions": [5, 23]
+  },
+  {
     "id": "mirna-heirloom", "title": "Mirna's heirloom in Thundertree", "type": "side", "storyline": null,
     "status": "available", "giver": "mirna-dendrar", "started": 9,
     "summary": "Mirna Dendrar's family hid an heirloom in Thundertree. She'll reward its return.",
@@ -79,6 +107,23 @@
     "summary": "Hamun will trade arcane insight for discoveries about Bowgentle's spellbook or the necromancer. His own question for Agatha was never asked.",
     "objectives": [{ "text": "Bring Hamun news of the spellbook or the necromancer", "done": false }],
     "reward": "Arcane insight", "sessions": [15, 18]
+  },
+  {
+    "id": "glasstaff-letters", "title": "Get Glasstaff's letters to Sildar", "type": "side", "storyline": "the-spider",
+    "status": "available", "giver": "sildar-hallwinter", "started": 24,
+    "summary": "Sildar asked to see the letters recovered from Glasstaff's chambers, but Caine took the correspondence with him when he left for his monastery.",
+    "objectives": [
+      { "text": "Get the letters back from Caine", "done": false },
+      { "text": "Show them to Sildar", "done": false }
+    ],
+    "reward": null, "sessions": [24]
+  },
+  {
+    "id": "owlbear-cubs", "title": "The owlbear cubs' cave", "type": "side", "storyline": null,
+    "status": "available", "giver": null, "started": 12,
+    "summary": "The party killed an owlbear by the bridge on the road to Wyvern Tor. Its cubs stayed in the cave nearby, and the party never went back to check on them.",
+    "objectives": [{ "text": "Investigate the cave", "done": false }],
+    "reward": null, "sessions": [12]
   },
   {
     "id": "bury-tharden", "title": "Give Tharden a proper burial", "type": "main", "storyline": "wave-echo-cave",
@@ -144,6 +189,23 @@
     "status": "completed", "giver": "gundren-rockseeker", "started": 1, "completed": 5,
     "summary": "Saved Sildar from Yeemik, killed Klarg and delivered the wagon to Barthen's.",
     "objectives": [], "reward": "50 gp from Sildar plus delivery pay", "sessions": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": "lenine-harbin-deal", "title": "Get Harbin to act on the Redbrands", "type": "side", "storyline": null,
+    "status": "completed", "giver": "lenine-graywind", "started": 6, "completed": 24,
+    "summary": "Lenine offered a standing discount if the party could get Townmaster Harbin Wester to deal with the Redbrands. They ended up wiping the Redbrands out themselves, and Francis negotiated the discount when they reported back.",
+    "objectives": [
+      { "text": "Push Harbin to act", "done": true },
+      { "text": "The Redbrands are dealt with", "done": true }
+    ],
+    "reward": "50 gp, then 25 gp traded for a standing 10% discount", "sessions": [6, 7, 24]
+  },
+  {
+    "id": "rescue-caine", "title": "Rescue Caine at Wyvern Tor", "type": "side", "storyline": null,
+    "status": "completed", "giver": null, "started": 13, "completed": 14,
+    "summary": "An orc dragged Caine into the cave at Wyvern Tor and held him at crossbow point. The party got him back, and right after being freed Caine left to help rebuild his monastery.",
+    "objectives": [{ "text": "Free Caine", "done": true }],
+    "reward": null, "sessions": [13, 14]
   },
   {
     "id": "levon-tree-debt", "title": "Levon's debt to the tree", "type": "personal", "character": "levon", "storyline": null,
