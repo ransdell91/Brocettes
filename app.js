@@ -261,6 +261,7 @@
           <div class="stack" style="gap:4px"><h1>${esc(o.name)}</h1><span class="sub">${esc(o.class)}${o.ancestry ? " · " + esc(o.ancestry) : ""}${o.level ? " · Level " + o.level : ""}${o.status !== "active" ? " · " + cap(o.status) : ""}</span>
             ${o.aliases?.length ? `<span class="sub">Also written: ${o.aliases.map(esc).join(", ")}</span>` : ""}</div>
           <p class="prose">${esc(o.summary)}</p>
+          ${sheetView(o.sheet)}
           ${section("Backstory", facts(o.backstory))}
           ${section("Notable items", o.notable_items.length ? `<div class="chips">${o.notable_items.map((i) => chip(i)).join("")}</div>` : "")}
           ${section("Personal quests", o.personal_quests.length ? `<div class="chips">${o.personal_quests.map((i) => chip(i)).join("")}</div>` : "")}
@@ -321,6 +322,30 @@
           <div class="fact">${badge(o.confidence)}<p class="prose">${esc(o.text)}${o.claimed_by ? ` <span class="sub">(${esc(o.claimed_by)})</span>` : ""}</p></div>
           ${section("Appears in", `<p>${sess(appears)}</p>`)}`;
     }
+  }
+
+  // Character sheet stats (from D&D Beyond), shown on a PC's profile.
+  function sheetView(s) {
+    if (!s) return "";
+    const ABIL = ["str", "dex", "con", "int", "wis", "cha"];
+    const sign = (n) => (n < 0 ? "−" + Math.abs(n) : "+" + n);
+    const list = (arr) => (arr || []).length ? `<ul class="sheet-list">${arr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
+    const fold = (title, body, open = false) => (body ? `<details class="sheet-fold"${open ? " open" : ""}><summary>${esc(title)}</summary><div class="stack" style="gap:8px">${body}</div></details>` : "");
+    const line = (label, text) => (text ? `<p><span class="sub">${esc(label)}:</span> ${esc(text)}</p>` : "");
+    const sc = s.spellcasting;
+    const tiles = [["AC", s.ac, s.ac_note], ["HP", s.hp], ["Speed", s.speed], ["Initiative", s.initiative], ["Proficiency", s.prof], ["Passive Perc.", s.passive?.perception]];
+    return section("Character sheet", `
+      <div class="tiles">${tiles.map(([k, v, note]) => `<div class="tile"><span>${esc(k)}</span><b>${esc(v)}</b>${note ? `<span>${esc(note)}</span>` : ""}</div>`).join("")}</div>
+      <div class="abil">${ABIL.map((a) => `<div><span>${a.toUpperCase()}</span><b>${sign(s.abilities[a][1])}</b><span>${s.abilities[a][0]}</span></div>`).join("")}</div>
+      ${sc ? `<div class="inset"><span class="eyebrow">Spellcasting</span><span>${esc(sc.ability)} · Spell attack ${esc(sc.attack)} · Save DC ${esc(sc.dc)}${sc.extra ? " · " + esc(sc.extra) : ""}</span></div>` : ""}
+      ${fold("Attacks", list(s.attacks), true)}
+      ${fold("Saves & skills", `<p>${ABIL.map((a) => `<b>${a.toUpperCase()}</b> ${esc(s.saves[a])}`).join(" · ")}</p>${list(s.save_notes)}
+        <p><span class="sub">Skills:</span> ${esc(s.skills.join(", "))}</p>
+        <p><span class="sub">Passive:</span> Perception ${esc(s.passive.perception)} · Investigation ${esc(s.passive.investigation)} · Insight ${esc(s.passive.insight)}</p>`)}
+      ${fold("Spells", s.spells?.length ? s.spells.map(([lvl, names]) => `<p><b>${esc(lvl)}:</b> ${esc(names)}</p>`).join("") : "")}
+      ${fold("Features & feats", `${list(s.features)}${line("Feats", (s.feats || []).join(", "))}`)}
+      ${fold("Background, senses & gear", `${line("Ancestry", s.ancestry)}${line("Background", s.background)}${line("Senses", s.senses)}${line("Proficiencies", s.proficiencies)}${line("Languages", s.languages)}${line("Gear", s.gear)}`)}
+      <p class="sub">From ${esc(s.source)}${s.url ? ` · <a href="${esc(s.url)}" target="_blank" rel="noopener">Full sheet</a>` : ""}. Loot from recent sessions may not be on it yet.</p>`);
   }
 
   const notFound = () => `<h1>Lost in the dark</h1><p>That page doesn't exist. <a href="#/">Back home</a></p>`;

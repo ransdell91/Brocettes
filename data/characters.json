@@ -64,6 +64,123 @@
       "standing": "assets/tokens/broc-standing.webp",
       "action": "assets/tokens/broc-action.webp",
       "moving": "assets/tokens/broc-moving.webp"
+    },
+    "sheet": {
+      "source": "D&D Beyond, Nov 6, 2026",
+      "url": "https://www.dndbeyond.com/characters/156208123",
+      "background": "Merchant",
+      "ancestry": "High Elf",
+      "ac": "11",
+      "ac_note": "14 with Mage Armor",
+      "hp": 37,
+      "speed": "30 ft",
+      "initiative": "+1",
+      "prof": "+3",
+      "passive": {
+        "perception": 13,
+        "investigation": 10,
+        "insight": 10
+      },
+      "abilities": {
+        "str": [
+          8,
+          -1
+        ],
+        "dex": [
+          13,
+          1
+        ],
+        "con": [
+          16,
+          3
+        ],
+        "int": [
+          10,
+          0
+        ],
+        "wis": [
+          10,
+          0
+        ],
+        "cha": [
+          18,
+          4
+        ]
+      },
+      "saves": {
+        "str": "−1",
+        "dex": "+1",
+        "con": "+6",
+        "int": "+0",
+        "wis": "+0",
+        "cha": "+7"
+      },
+      "save_notes": [
+        "Advantage on CON saves to keep Concentration (War Caster)",
+        "Advantage against being Charmed (Fey Ancestry)"
+      ],
+      "skills": [
+        "Deception +7",
+        "Performance +7",
+        "Persuasion +7",
+        "Animal Handling +3",
+        "Perception +3"
+      ],
+      "senses": "Darkvision 60 ft · can't be magically put to sleep",
+      "proficiencies": "No armor · Simple weapons · Navigator's Tools",
+      "languages": "Common, Elvish, Goblin",
+      "spellcasting": {
+        "ability": "CHA",
+        "attack": "+7",
+        "dc": 15,
+        "extra": "5 Sorcery Points"
+      },
+      "attacks": [
+        "Fire Bolt: +7, 120 ft, 2d10 fire",
+        "Ray of Frost: +7, 60 ft, 2d8 cold",
+        "Sorcerous Burst: +7, 120 ft, 2d8",
+        "Mind Sliver: INT save DC 15, 2d6 psychic",
+        "Chromatic Orb (1st): +7, 3d8",
+        "Witch Bolt (1st): +7, 2d12",
+        "Shortbow: +4, 1d6+1 (80/320)",
+        "Staff: +2, 1d6−1 (1d8−1 two-handed)"
+      ],
+      "spells": [
+        [
+          "Cantrips",
+          "Fire Bolt, Mage Hand, Mind Sliver, Minor Illusion, Ray of Frost, Sorcerous Burst"
+        ],
+        [
+          "1st",
+          "Chromatic Orb, Detect Magic, Mage Armor, Witch Bolt"
+        ],
+        [
+          "2nd",
+          "Enlarge/Reduce, Mirror Image, Misty Step, Shatter"
+        ],
+        [
+          "3rd",
+          "Astral Flood, Blink, Counterspell"
+        ],
+        [
+          "Free 1/day",
+          "Detect Magic, Misty Step (High Elf)"
+        ]
+      ],
+      "features": [
+        "Font of Magic: 5 Sorcery Points; trade points and slots back and forth",
+        "Sorcerous Restoration: regain 2 points on a short rest (once per long rest)",
+        "Metamagic: Quickened Spell (2 points), Empowered Spell (1 point)",
+        "Innate Sorcery: twice per long rest, bonus action, 1 minute",
+        "Wild Magic Surge: roll a d20 after casting a slot spell; on a 20, roll on the surge table",
+        "Tides of Chaos: give yourself advantage on one d20 roll; recharges after a surge",
+        "Reactive Spell: cast a spell instead of an opportunity attack (War Caster)"
+      ],
+      "feats": [
+        "War Caster",
+        "Lucky (3 Luck Points)"
+      ],
+      "gear": "Crystal and staff (arcane focuses), shortbow, 2 daggers, traveler's clothes, 20 caltrops, crowbar, 2 oil, 10 rations, rope, tinderbox, 10 torches, waterskin"
     }
   },
   {
@@ -133,6 +250,109 @@
       "standing": "assets/tokens/francis-standing.webp",
       "action": "assets/tokens/francis-action.webp",
       "down": "assets/tokens/francis-down.webp"
+    },
+    "sheet": {
+      "source": "D&D Beyond, Nov 6, 2026",
+      "url": "https://www.dndbeyond.com/characters/155796740",
+      "background": "Soldier",
+      "ancestry": "Human",
+      "ac": "18",
+      "hp": 44,
+      "speed": "30 ft",
+      "initiative": "+4",
+      "prof": "+3",
+      "passive": {
+        "perception": 13,
+        "investigation": 9,
+        "insight": 13
+      },
+      "abilities": {
+        "str": [
+          18,
+          4
+        ],
+        "dex": [
+          12,
+          1
+        ],
+        "con": [
+          14,
+          2
+        ],
+        "int": [
+          8,
+          -1
+        ],
+        "wis": [
+          10,
+          0
+        ],
+        "cha": [
+          14,
+          2
+        ]
+      },
+      "saves": {
+        "str": "+4",
+        "dex": "+1",
+        "con": "+2",
+        "int": "−1",
+        "wis": "+3",
+        "cha": "+5"
+      },
+      "save_notes": [],
+      "skills": [
+        "Athletics +7",
+        "Intimidation +5",
+        "Persuasion +5",
+        "Insight +3",
+        "Perception +3"
+      ],
+      "senses": "No darkvision",
+      "proficiencies": "All armor and shields · Simple and martial weapons · Dice set",
+      "languages": "Common, Common Sign Language, Goblin",
+      "spellcasting": {
+        "ability": "CHA",
+        "attack": "+5",
+        "dc": 13
+      },
+      "attacks": [
+        "Two attacks per Attack action (Extra Attack)",
+        "Longsword: +7, 1d8+6 one-handed with Dueling (1d10+4 two-handed); Sap: target has disadvantage on its next attack",
+        "Javelin: +7, 1d6+6 (30/120)",
+        "Shortbow: +4, 1d6+1 (80/320)",
+        "Savage Attacker: once per turn, roll weapon damage twice and keep either",
+        "Divine Smite (1st, bonus action): +2d8 radiant, one free use per long rest"
+      ],
+      "spells": [
+        [
+          "1st",
+          "Bane, Bless, Command, Cure Wounds, Divine Smite, Hunter's Mark"
+        ],
+        [
+          "2nd",
+          "Find Steed, Hold Person, Misty Step, Prayer of Healing, Warding Bond, Zone of Truth"
+        ],
+        [
+          "Always prepared",
+          "Bane, Hunter's Mark, Hold Person, Misty Step (Oath of Vengeance); Find Steed free once per long rest"
+        ]
+      ],
+      "features": [
+        "Lay on Hands: 25 HP healing pool; 5 points cures Poisoned",
+        "Channel Divinity (2 per long rest, 1 back on a short rest): Divine Sense or Vow of Enmity",
+        "Vow of Enmity: advantage on attacks against one creature for 1 minute",
+        "Weapon Mastery: Longsword (Sap), Maul (Topple) · Fighting Style: Dueling",
+        "Sentinel: opportunity attack when a nearby enemy disengages or hits someone else; a hit drops its speed to 0",
+        "Alert: +3 initiative and can swap initiative with a willing ally",
+        "Resourceful: Heroic Inspiration after every long rest"
+      ],
+      "feats": [
+        "Sentinel",
+        "Alert",
+        "Savage Attacker"
+      ],
+      "gear": "Chain mail, shield, longsword, 6 javelins, shortbow, 20 arrows, spear, emblem (holy symbol), healer's kit, dice, holy water, lamp, blanket, robe, 7 rations, tinderbox, traveler's clothes"
     }
   },
   {
@@ -202,6 +422,92 @@
       "standing": "assets/tokens/levon-standing.webp",
       "action": "assets/tokens/levon-action.webp",
       "down": "assets/tokens/levon-down.webp"
+    },
+    "sheet": {
+      "source": "D&D Beyond PDF export, Nov 10, 2026",
+      "background": "Farmer",
+      "ancestry": "Goliath (Storm Giant)",
+      "ac": "15",
+      "ac_note": "Unarmored Defense",
+      "hp": 65,
+      "speed": "45 ft",
+      "initiative": "+2",
+      "prof": "+3",
+      "passive": {
+        "perception": 12,
+        "investigation": 9,
+        "insight": 9
+      },
+      "abilities": {
+        "str": [
+          17,
+          3
+        ],
+        "dex": [
+          14,
+          2
+        ],
+        "con": [
+          16,
+          3
+        ],
+        "int": [
+          8,
+          -1
+        ],
+        "wis": [
+          8,
+          -1
+        ],
+        "cha": [
+          12,
+          1
+        ]
+      },
+      "saves": {
+        "str": "+6",
+        "dex": "+2",
+        "con": "+6",
+        "int": "−1",
+        "wis": "−1",
+        "cha": "+1"
+      },
+      "save_notes": [
+        "Advantage on DEX saves unless Incapacitated (Danger Sense)"
+      ],
+      "skills": [
+        "Athletics +6",
+        "Intimidation +4",
+        "Animal Handling +2",
+        "Nature +2",
+        "Perception +2"
+      ],
+      "senses": "No darkvision",
+      "proficiencies": "Light and medium armor, shields · Simple and martial weapons · Carpenter's Tools",
+      "languages": "Common, Giant, Goblin",
+      "spellcasting": null,
+      "attacks": [
+        "Two attacks per Attack action (Extra Attack)",
+        "Choppy (greataxe): +6, 1d12+3 slashing; Cleave: on a hit, swing at a second creature within 5 ft",
+        "Handaxe: +6, 1d6+3 (thrown 20/60); Vex: advantage on your next attack against that target",
+        "Charger: move 10+ ft straight at a target, then +1d8 damage or push it 10 ft",
+        "Reckless Attack: advantage on STR attacks this turn, but enemies get advantage on you"
+      ],
+      "spells": [],
+      "features": [
+        "Rage (normally 3 per long rest and +2 damage at level 5; not listed on the export)",
+        "Vitality of the Tree: 5 temp HP when you rage; each turn while raging, give an ally within 10 ft 2d6 temp HP",
+        "Storm's Thunder (3 per long rest, reaction): 1d8 thunder to a creature within 60 ft that damages you",
+        "Large Form (once per long rest, bonus action, 10 min): become Large, advantage on STR checks, +10 ft speed",
+        "Primal Knowledge: while raging, use STR for Acrobatics, Intimidation, Perception, Stealth and Survival",
+        "Danger Sense, Fast Movement, Powerful Build",
+        "Weapon Mastery: Greataxe (Cleave), Handaxe (Vex), Battleaxe (Topple)"
+      ],
+      "feats": [
+        "Charger",
+        "Tough"
+      ],
+      "gear": "Choppy, 4 handaxes, sickle, 10 darts, carpenter's tools, shovel, block and tackle, healer's kit, iron pot, 5,000 ball bearings, rope, bedroll, 10 rations, 10 torches, 2 oil, tinderbox, waterskin, traveler's clothes · 35 gp"
     }
   },
   {
@@ -291,6 +597,125 @@
       "standing": "assets/tokens/vexhar-standing.webp",
       "action": "assets/tokens/vexhar-action.webp",
       "down": "assets/tokens/vexhar-down.webp"
+    },
+    "sheet": {
+      "source": "D&D Beyond, Nov 6, 2026",
+      "url": "https://www.dndbeyond.com/characters/155797117",
+      "background": "Covenant of the Grave Recruit",
+      "ancestry": "Drow",
+      "ac": "12",
+      "ac_note": "15 with Mage Armor",
+      "hp": 32,
+      "speed": "30 ft",
+      "initiative": "+2",
+      "prof": "+3",
+      "passive": {
+        "perception": 11,
+        "investigation": 17,
+        "insight": 14
+      },
+      "abilities": {
+        "str": [
+          8,
+          -1
+        ],
+        "dex": [
+          14,
+          2
+        ],
+        "con": [
+          14,
+          2
+        ],
+        "int": [
+          18,
+          4
+        ],
+        "wis": [
+          13,
+          1
+        ],
+        "cha": [
+          10,
+          0
+        ]
+      },
+      "saves": {
+        "str": "−1",
+        "dex": "+2",
+        "con": "+2",
+        "int": "+7",
+        "wis": "+4",
+        "cha": "+0"
+      },
+      "save_notes": [
+        "Advantage against being Charmed (Fey Ancestry)"
+      ],
+      "skills": [
+        "Arcana +10 (expertise)",
+        "History +7",
+        "Investigation +7",
+        "Insight +4",
+        "Medicine +4",
+        "Nature +4",
+        "Religion +4",
+        "+1d4 on History and Medicine (Arcane Undertaker)"
+      ],
+      "senses": "Darkvision 120 ft · resistant to necrotic · can't be magically put to sleep",
+      "proficiencies": "No armor · Simple weapons · Herbalism Kit",
+      "languages": "Common, Goblin, Orc",
+      "spellcasting": {
+        "ability": "INT",
+        "attack": "+7",
+        "dc": 15
+      },
+      "attacks": [
+        "Fire Bolt: +7, 120 ft, 2d10 fire",
+        "Poison Spray: +7, 30 ft, 2d12 poison",
+        "Toll the Dead: WIS save DC 15, 2d8 necrotic",
+        "Chromatic Orb (1st): +7, 3d8",
+        "Fireball (3rd): DEX save DC 15, 8d6 fire, 20 ft radius",
+        "Dagger: +5, 1d4+2 (20/60)",
+        "Quarterstaff: +2, 1d6−1"
+      ],
+      "spells": [
+        [
+          "Cantrips",
+          "Dancing Lights, Fire Bolt, Mage Hand, Poison Spray, Prestidigitation, Toll the Dead"
+        ],
+        [
+          "1st",
+          "Charm Person, Chromatic Orb, Faerie Fire, Mage Armor, Shield"
+        ],
+        [
+          "2nd",
+          "Cloud of Daggers, Darkness, Death Armor, Hold Person, Shatter, Wither and Bloom"
+        ],
+        [
+          "3rd",
+          "Animate Dead, Fireball"
+        ],
+        [
+          "Free 1/day",
+          "Faerie Fire, Darkness (Drow)"
+        ],
+        [
+          "Spellbook",
+          "Also has Find Familiar (can be a skeleton or zombie)"
+        ]
+      ],
+      "features": [
+        "Arcane Recovery: regain 3 levels of spell slots on a short rest (once per long rest)",
+        "Memorize Spell: swap one prepared spell after a short rest · Ritual Adept",
+        "Necromancer: necrotic resistance; undead familiar can attack in your place",
+        "Undead Vitality: casting a Necromancy slot spell heals an undead ally within 60 ft",
+        "Arcane Undertaker: stabilizing someone at 0 HP gives you Heroic Inspiration (once per long rest)"
+      ],
+      "feats": [
+        "Ability Score Improvement (INT +2)",
+        "Arcane Undertaker"
+      ],
+      "gear": "Spellbook, quarterstaff, 2 daggers, 1,000 ball bearings, rope, robe, common clothes, small knife, book, ink and pen, lamp, 10 oil, 10 parchment, tinderbox"
     }
   },
   {
@@ -350,6 +775,120 @@
       "standing": "assets/tokens/blue-standing.webp",
       "action": "assets/tokens/blue-action.webp",
       "down": "assets/tokens/blue-down.webp"
+    },
+    "sheet": {
+      "source": "D&D Beyond, Nov 6, 2026",
+      "url": "https://www.dndbeyond.com/characters/163828301",
+      "background": "Wayfarer",
+      "ancestry": "High Elf",
+      "ac": "14",
+      "hp": 33,
+      "speed": "30 ft",
+      "initiative": "+3",
+      "prof": "+3",
+      "passive": {
+        "perception": 17,
+        "investigation": 10,
+        "insight": 14
+      },
+      "abilities": {
+        "str": [
+          8,
+          -1
+        ],
+        "dex": [
+          16,
+          3
+        ],
+        "con": [
+          13,
+          1
+        ],
+        "int": [
+          8,
+          -1
+        ],
+        "wis": [
+          12,
+          1
+        ],
+        "cha": [
+          19,
+          4
+        ]
+      },
+      "saves": {
+        "str": "−1",
+        "dex": "+6",
+        "con": "+1",
+        "int": "−1",
+        "wis": "+1",
+        "cha": "+7"
+      },
+      "save_notes": [
+        "Advantage against being Charmed (Fey Ancestry)"
+      ],
+      "skills": [
+        "Stealth +9 (expertise)",
+        "Perception +7 (expertise)",
+        "Deception +7",
+        "Acrobatics +6",
+        "Sleight of Hand +6",
+        "Insight +4",
+        "Jack of All Trades: +1 to checks you're not proficient in"
+      ],
+      "senses": "Darkvision 60 ft · can't be magically put to sleep",
+      "proficiencies": "Light armor · Simple weapons · Hand Drum, Lute, Pan Flute, Thieves' Tools",
+      "languages": "Common, Common Sign Language, Elvish",
+      "spellcasting": {
+        "ability": "CHA",
+        "attack": "+7",
+        "dc": 15
+      },
+      "attacks": [
+        "Vicious Mockery: WIS save DC 15, 2d6 psychic",
+        "Chill Touch: +7, touch, 2d10 necrotic",
+        "Dissonant Whispers (1st): WIS save DC 15, 3d6 psychic",
+        "Shatter (2nd): CON save DC 15, 3d8 thunder",
+        "Dagger: +6, 1d4+3 (20/60)"
+      ],
+      "spells": [
+        [
+          "Cantrips",
+          "Chill Touch, Mage Hand, Minor Illusion, Vicious Mockery"
+        ],
+        [
+          "1st",
+          "Charm Person, Detect Magic, Dissonant Whispers, Feather Fall, Healing Word, Silent Image, Sleep"
+        ],
+        [
+          "2nd",
+          "Mirror Image, Misty Step, Phantasmal Force, Shatter, Silence"
+        ],
+        [
+          "3rd",
+          "Astral Flood"
+        ],
+        [
+          "Always prepared",
+          "Charm Person, Mirror Image (Glamour)"
+        ],
+        [
+          "Free 1/day",
+          "Detect Magic, Misty Step (High Elf)"
+        ]
+      ],
+      "features": [
+        "Bardic Inspiration: d8, 4 uses, all back on a short rest; spend a spell slot to regain one",
+        "Mantle of Inspiration: bonus action, up to 4 allies get 2× d8 temp HP and can move without provoking",
+        "Beguiling Magic: after an Enchantment or Illusion slot spell, a creature makes a DC 15 WIS save or is Charmed or Frightened",
+        "Expertise: Perception, Stealth"
+      ],
+      "feats": [
+        "Ability Score Improvement (CHA +2)",
+        "Lucky (3 Luck Points)"
+      ],
+      "gear": "Leather armor, 4 daggers, pan flute, thieves' tools, playing cards, bedroll, bell, bullseye lantern, 3 costumes, crowbar, hammer, mirror, 8 oil, 10 pitons, about 19 days of rations, 50 ft hempen rope, 10 torches, 2 waterskins"
     }
   },
   {
@@ -403,6 +942,110 @@
       "standing": "assets/tokens/allyanna-standing.webp",
       "action": "assets/tokens/allyanna-action.webp",
       "down": "assets/tokens/allyanna-down.webp"
+    },
+    "sheet": {
+      "source": "D&D Beyond, Nov 6, 2026",
+      "url": "https://www.dndbeyond.com/characters/163859455",
+      "background": "Charlatan",
+      "ancestry": "Aasimar",
+      "ac": "13",
+      "hp": 38,
+      "speed": "30 ft",
+      "initiative": "+3",
+      "prof": "+3",
+      "passive": {
+        "perception": 13,
+        "investigation": 12,
+        "insight": 10
+      },
+      "abilities": {
+        "str": [
+          8,
+          -1
+        ],
+        "dex": [
+          16,
+          3
+        ],
+        "con": [
+          14,
+          2
+        ],
+        "int": [
+          8,
+          -1
+        ],
+        "wis": [
+          10,
+          0
+        ],
+        "cha": [
+          18,
+          4
+        ]
+      },
+      "saves": {
+        "str": "−1",
+        "dex": "+3",
+        "con": "+2",
+        "int": "−1",
+        "wis": "+3",
+        "cha": "+7"
+      },
+      "save_notes": [
+        "Advantage on CON saves to keep Concentration (Eldritch Mind)"
+      ],
+      "skills": [
+        "Deception +7",
+        "Persuasion +7",
+        "Sleight of Hand +6",
+        "Stealth +6",
+        "Perception +3",
+        "Arcana +2",
+        "Investigation +2"
+      ],
+      "senses": "Darkvision 60 ft · resistant to necrotic and radiant",
+      "proficiencies": "Light armor · Simple weapons · Forgery Kit",
+      "languages": "Common, Elvish, Goblin",
+      "spellcasting": {
+        "ability": "CHA",
+        "attack": "+7",
+        "dc": 15,
+        "extra": "Pact Magic, 3rd-level slots"
+      },
+      "attacks": [
+        "Pact greatsword: +7, 2d6+4, two attacks (Thirsting Blade); can deal necrotic, psychic or radiant",
+        "Eldritch Blast: +7, 120 ft, 2 beams of 1d10+4 force; each can push 10 ft (Repelling Blast)",
+        "Sacred Flame: DEX save DC 15, 2d8 radiant",
+        "Guiding Bolt: +7, 120 ft, radiant",
+        "Dagger: +6, 1d4+3 (20/60)"
+      ],
+      "spells": [
+        [
+          "Cantrips",
+          "Eldritch Blast, Friends, Light, Minor Illusion, Sacred Flame"
+        ],
+        [
+          "Pact spells",
+          "Aid, Armor of Agathys, Cloud of Daggers, Cure Wounds, Daylight, Guiding Bolt, Hex, Hunger of Hadar, Lesser Restoration, Revivify, Tasha's Hideous Laughter"
+        ],
+        [
+          "Free 1/day",
+          "Command, Misty Step (Fey Touched)"
+        ]
+      ],
+      "features": [
+        "Invocations: Pact of the Blade, Agonizing Blast, Repelling Blast, Thirsting Blade, Eldritch Mind",
+        "Magical Cunning: once per long rest, a 1-minute rite restores a Pact slot",
+        "Healing Light: 6d6 healing pool, bonus action, up to 4 dice at a time, 60 ft",
+        "Healing Hands: touch heals 3d4, once per long rest",
+        "Celestial Revelation: once per long rest, transform for 1 minute"
+      ],
+      "feats": [
+        "Fey Touched",
+        "Skilled (Persuasion, Arcana, Stealth)"
+      ],
+      "gear": "Leather armor, greatsword, 2 daggers, sickle, orb (arcane focus), forgery kit, costume, fine clothes, 2 books, ink and pen, lamp, 10 oil, 10 parchment, tinderbox"
     }
   },
   {
